@@ -1,9 +1,6 @@
 # 🧬-💻-🌟 Tools for Genome Analysis
-_Final Portfolio_
+_Sara Carsanaro's Final Portfolio for John Hopkins Spring 2021 AS.410.635.81.SP21 Bioinformatics: Tools for Genome Analysis Course_
 
-_Sara Carsanaro_
-
-_Spring 2021_
 
 You can use the [editor on GitHub](https://github.com/saracarsanaro/genome-analysis/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
