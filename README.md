@@ -6,10 +6,46 @@ _Sara Carsanaro's Final Portfolio for John Hopkins Spring 2021 Course AS.410.635
 
 ### Eukaryotic 
 
-## Genomic Databases and File Formats
+## Genomic Databases
 
+### Ensembl
+
+### Biomart
+
+### UCSC
+
+### UCSC Table Browser
+
+### Galaxy
+
+### IGV
+
+### ENCODE
+
+### File Formats
 
 ## NGS Sequencing and Analysis
+
+### Model Organisms
+
+### SNVs
+
+### CNVs
+
+### BEDtools and SAMtools
+
+### Genome Sequence Assembly
+
+### Variant Calling
+
+### ChIP-seq
+
+### RNA-seq
+
+### Single-Cell RNA-seq
+
+### Gene Editing
+
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
