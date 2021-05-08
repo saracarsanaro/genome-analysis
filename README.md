@@ -2,7 +2,9 @@
 _Sara Carsanaro's Final Portfolio for John Hopkins Spring 2021 Course AS.410.635 Bioinformatics: Tools for Genome Analysis_
 
 ## Gene Annotation and Structure
+# Prokaryotic
 
+# Eukaryotic 
 
 ## Genomic Databases and File Formats
 
