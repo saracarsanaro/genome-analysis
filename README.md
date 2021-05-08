@@ -1,12 +1,13 @@
 # 🧬-💻-🌟 Tools for Genome Analysis
 _Sara Carsanaro's Final Portfolio for John Hopkins Spring 2021 Course AS.410.635 Bioinformatics: Tools for Genome Analysis_
 
+## Gene Annotation and Structure
 
-You can use the [editor on GitHub](https://github.com/saracarsanaro/genome-analysis/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Genomic Databases and File Formats
 
-### Markdown
+
+## NGS Sequencing and Analysis
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
