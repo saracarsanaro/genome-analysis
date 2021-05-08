@@ -1,4 +1,6 @@
-# 🧬✒️💻✒️🌟 Tools for Genome Analysis - Spring 2021
+# 🧬-💻-🌟 Tools for Genome Analysis
+Sara Carsanaro
+Spring 2021
 
 You can use the [editor on GitHub](https://github.com/saracarsanaro/genome-analysis/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
