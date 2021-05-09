@@ -26,7 +26,7 @@ Background on prokaryotic and eukaryotic gene structure, and gene finding progra
 
 ### File Formats
 
-## NGS Sequencing and Analysis
+## [NGS Sequencing and Analysis](./NGS_sequencing_analysis.md)
 
 ### Model Organisms
 
