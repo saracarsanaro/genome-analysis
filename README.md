@@ -2,51 +2,25 @@
 _Sara Carsanaro's Final Portfolio for John Hopkins Spring 2021 Course AS.410.635 Bioinformatics: Tools for Genome Analysis_
 
 ## [Gene Annotation and Structure](./genome_annotation.md)
-Background on prokaryotic and eukaryotic gene structure, and gene finding programs
-
-### Prokaryotic
+- prokaryotic and eukaryotic gene structure
+- gene finding programs
 [Exam3](./Exam3.pdf)
 
 
 ## [Genomic Databases](./genomic_databases.md)
-
-### Ensembl
-
-### Biomart
-
-### UCSC
-
-### UCSC Table Browser
-
-### Galaxy
-
-### IGV
-
-### ENCODE
-
-### File Formats
+- databases including Ensembl, Biomart, UCSC Table Browser, and ENCODE
+- web applications including UCSC and Galaxy
+- desktop applications including IGV
+- genomic file formats
 
 ## [NGS Sequencing and Analysis](./NGS_sequencing_analysis.md)
+- introduction to model organisms, SNVs and CNVs
+- BEDtools and SAMtools
+- de novo and reference based sequence assembly
+- variant calling
+- ChIP-seq, RNA-seq, single-cell RNA-seq
+- CRISPR for gene oncology
 
-### Model Organisms
-
-### SNVs
-
-### CNVs
-
-### BEDtools and SAMtools
-
-### Genome Sequence Assembly
-
-### Variant Calling
-
-### ChIP-seq
-
-### RNA-seq
-
-### Single-Cell RNA-seq
-
-### Gene Editing
 
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
