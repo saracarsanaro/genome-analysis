@@ -8,7 +8,7 @@ Background on prokaryotic and eukaryotic gene structure, and gene finding progra
 [Exam3](./Exam3.pdf)
 
 
-## Genomic Databases
+## [Genomic Databases](./genomic_databases.md)
 
 ### Ensembl
 
