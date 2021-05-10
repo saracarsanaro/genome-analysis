@@ -23,8 +23,6 @@ _Sara Carsanaro's Final Portfolio for John Hopkins Spring 2021 Course AS.410.635
 
 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
 ```markdown
 Syntax highlighted code block
 
