@@ -10,16 +10,19 @@ _Sara Carsanaro's Final Portfolio for John Hopkins Spring 2021 Course AS.410.635
 - web applications including UCSC and Galaxy
 - desktop applications including IGV
 
-## [Genomic File Formats](./file_formats.md)
-- various file formats you may encounter working in NGS workflows
-
-## [NGS Sequencing and Analysis](./NGS_sequencing_analysis.md)
-- introduction to model organisms, SNVs and CNVs
+## [NGS Sequencing and Analysis: DNA](./NGS_sequencing_analysis.md)
+- SNVs and CNVs
 - BEDtools and SAMtools
 - de novo and reference based sequence assembly
 - variant calling
+
+## [NGS Sequencing and Analysis: RNA and Beyond]
 - ChIP-seq, RNA-seq, single-cell RNA-seq
 - CRISPR for gene oncology
+- introduction to model organisms
+
+## [Genomic File Formats](./file_formats.md)
+- various file formats you may encounter working in NGS workflows
 
 ## [Homework and Exams](./files/all_files.md)
 - linked homework and exams from the course
