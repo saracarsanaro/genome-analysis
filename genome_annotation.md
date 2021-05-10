@@ -23,19 +23,19 @@ De Novo
 
 ### Content Sensors
 - prediction algorithms that depend on features inherent to the coding sequence
--   third base (nucleotide) composition is used in bacteria
--   hexamer (codon bias and dicodon combinations) frequency is the most reliable content sensor
+  - third base (nucleotide) composition is used in bacteria
+  - hexamer (codon bias and dicodon combinations) frequency is the most reliable content sensor
 
 ### Signal Sensors
 - clues that programs use to find genes based on a particular sequence that is associated with a gene
--   promoter, splice site, poly(A) signal
+  - promoter, splice site, poly(A) signal
 - position-specific scoring matrix (PSSM) can give more weigh to more conserved positions
 
 ### Gene Structure
 - mRNA is processed after transcription - most notably via splicing
--   the splicing process is independent of CDS location
+  - the splicing process is independent of CDS location
 - gene predictors are good with coding regions, struggle with 5' and 3' UTRs
--   RNA-seq has uncovered many new transcripts, some which different in UTR regions only
+  - RNA-seq has uncovered many new transcripts, some which different in UTR regions only
 
 ## Prokaryotic
 ### Gene Structure
