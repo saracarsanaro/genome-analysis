@@ -1,4 +1,4 @@
-## NGS Sequencing and Analysis
+## NGS Sequencing and Analysis: DNA
 
 ### Model Organisms
 
