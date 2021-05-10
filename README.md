@@ -16,7 +16,7 @@ _Sara Carsanaro's Final Portfolio for John Hopkins Spring 2021 Course AS.410.635
 - de novo and reference based sequence assembly
 - variant calling
 
-## [NGS Sequencing and Analysis: RNA and Beyond]
+## [NGS Sequencing and Analysis: RNA and Beyond](./NGS_RNA.md)
 - ChIP-seq, RNA-seq, single-cell RNA-seq
 - CRISPR for gene oncology
 - introduction to model organisms
