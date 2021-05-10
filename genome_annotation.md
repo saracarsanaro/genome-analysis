@@ -11,13 +11,13 @@ De Novo
 - relies on content sensors or signal sensors
 
 ### Expression Based Prediction
-- [Splign](https://www.ncbi.nlm.nih.gov/sutils/splign/splign.cgi?textpage=online&level=form)
-- [genomic BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&BLAST_SPEC=MicrobialGenomes)
-- [BLAT](http://genome.ucsc.edu/cgi-bin/hgBlat?command=start)
+- [Splign](https://www.ncbi.nlm.nih.gov/sutils/splign/splign.cgi?textpage=online&level=form): aligns cDNA to genomic DNA
+- [genomic BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&BLAST_SPEC=MicrobialGenomes): align DNA to NCBI genomic sequences, RefSEq, and EST sequences
+- [BLAT](http://genome.ucsc.edu/cgi-bin/hgBlat?command=start): align cDNA to genomic DNA
 
 ### De Novo Gene Prediction
-- [GENESCAN](http://hollywood.mit.edu/GENSCAN.html)
-- [HMMGene](http://www.cbs.dtu.dk/services/HMMgene/)
+- [GENESCAN](http://hollywood.mit.edu/GENSCAN.html): predicts exons, CDS, start, stop, splice donor and acceptor sites, polyA signal, and promoter
+- [HMMGene](http://www.cbs.dtu.dk/services/HMMgene/): uses Hidden Markov Model to predict exons, CDS, start, stop, splice donor and acceptor sites
 - [GGENESH](http://www.softberry.com/berry.phtml?topic=fgenesh&group=programs&subgroup=gfind)
 - [Augustus](http://bioinf.uni-greifswald.de/augustus/)
 
