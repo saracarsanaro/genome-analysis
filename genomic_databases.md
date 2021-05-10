@@ -27,7 +27,7 @@ Transcript Tab
 
 [Ensembl YouTube Page](https://www.youtube.com/channel/UCKGzTZIXfs2HX44X3HqBtDA): great demos
 
-[Ensembl Genomes](http://ensemblgenomes.org/): nonvertebrates (bacteria, protists, fungi, plants, and invertebrate metazoa)
+[Ensembl Genomes](http://ensemblgenomes.org/): Ensembl browser for non-vertebrates (bacteria, protists, fungi, plants, and invertebrate metazoa)
 
 ### BioMart
 download data sets from Ensembl
