@@ -13,7 +13,7 @@ via Entrez Genome database - genomes of 306,892 prokaryotes, 42,119 viruses, and
 ### Ensembl
 genome browser for chordates and non-chordate model organisms
 
-[Homepage](http://uswest.ensembl.org/index.html) and [YouTube Page](https://www.youtube.com/channel/UCKGzTZIXfs2HX44X3HqBtDA)
+[Ensembl Homepage](http://uswest.ensembl.org/index.html)
 
 [Chromosome View](http://uswest.ensembl.org/Homo_sapiens/Location/Chromosome?r=11)
 
@@ -24,6 +24,8 @@ Location Tab
 Gene Tab
 
 Transcript Tab
+
+[Ensembl YouTube Page](https://www.youtube.com/channel/UCKGzTZIXfs2HX44X3HqBtDA): great demos
 
 [Ensembl Genomes](http://ensemblgenomes.org/): nonvertebrates (bacteria, protists, fungi, plants, and invertebrate metazoa)
 
