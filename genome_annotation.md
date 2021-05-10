@@ -14,29 +14,30 @@
   -  RNA-seq data can provide information on transcription start and stop sites, helping to complete gene annotations
 
 ### Prokaryotic Gene Prediction Algorithms
-- Prodigal : for CDS prediction
-- OFR finder : identifies all ORFs, usually the longest ORFs that don't overlap are real genes
-- FGENESB : includes a program for automatic GenBank annotation, finds coding regions, promoters, operons, translation and termination sites
-- GLIMMER : uses interpolated Markov models to identify the coding regions and distinguish them from noncoding DNA
-- GeneMark
-- Easy Gene
+- [OFR finder](https://www.ncbi.nlm.nih.gov/orffinder/): identifies all ORFs, usually the longest ORFs that don't overlap are real genes
+- [FGENESB](http://www.softberry.com/berry.phtml?topic=fgenesb&group=programs&subgroup=gfindb): includes a program for automatic GenBank annotation, finds coding regions, promoters, operons, translation and termination sites
+- [GLIMMER](http://ccb.jhu.edu/software/glimmer/index.shtml): uses interpolated Markov models to identify the coding regions and distinguish them from noncoding DNA
+-   [release notes](https://ccb.jhu.edu/software/glimmer/glim302notes.pdf)
+- [Prodigal](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-11-119): for CDS prediction
+- [GeneMark](http://exon.gatech.edu/GeneMark/gmhmmp.cgi)
+- [Easy Gene](http://www.cbs.dtu.dk/services/EasyGene/)
 
 ### E. coli Resources
-- EcoCyc
-- Regulon
-- E. coli Genome Project
-- Porteco
+- [EcoCyc](https://ecocyc.org/)
+- [Regulon](http://regulondb.ccg.unam.mx/)
+- [E. coli Genome Project](https://www.genome.wisc.edu/)
+- [Porteco](http://porteco.org/)
 
 ### GC Content
 - GC content tends to be higher in genes
 - organisms can vary significantly in base composition, largely determined by codon usage (many amino acids are coded by multiple codons, some organisms prefer some codons over others)
 
 ### Some Useful Bacterial and Archaeal Databases and Programs
-- seqinr : R package, allows simple analysis of FASTA-formatted sequences (base count, sequence length, GC content, and more)
-- PATRIC : database of over 10,000 microbial genomes
-- HaloWeb : 52 haloarchaeal species (archaeal species that grow in high salt concentrations)
-- UCSC Archaeal Genome Browser
-- Greengenes : repository for 16S rRNA sequences and tools
+- [seqinr](https://a-little-book-of-r-for-bioinformatics.readthedocs.io/en/latest/src/chapter1.html): R package, allows simple analysis of FASTA-formatted sequences (base count, sequence length, GC content, and more)
+- [PATRIC](https://patricbrc.org/): database of over 10,000 microbial genomes
+- [HaloWeb](https://halo.umbc.edu/): 52 haloarchaeal species (archaeal species that grow in high salt concentrations)
+- [UCSC Archaeal Genome Browser](http://archaea.ucsc.edu/)
+- [Greengenes](https://greengenes.lbl.gov/Download/): repository for 16S rRNA sequences and tools
 
 ### Bacterial Promoters
 - **Sigma (σ) Factor**: subunit of RNA polymerase that binds the promoter
@@ -53,10 +54,10 @@
   - cons: false positives, may miss unusual promoters
 - incorporating microarray and RNA-seq data
   - identify co-expressed genes that may share common regulators 
-  - [CTSP tool]() and [BioProspector]()
+  - [CTSP tool](http://cstp.molgen.mpg.de/) and [BioProspector](http://ai.stanford.edu/~xsliu/BioProspector/)
 
 ### Bacterial Promoter Predictors
-- BPROM
-- Neural Network Promoter Prediction
+- [BPROM](http://www.softberry.com/berry.phtml?topic=bprom&group=programs&subgroup=gfindb): to identify σ70 promoters
+- [Neural Network Promoter Prediction](https://www.fruitfly.org/seq_tools/promoter.html)
 
 ## Eukaryotic 
