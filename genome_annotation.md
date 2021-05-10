@@ -6,11 +6,13 @@ Structure
 - a **transcription unit** denotes any segment of DNA that codes for an RNA molecule
   - an operon can encompass multiple transcriptional units
 - _transcription start site_ versus _translation start site_
+
 Gene Prediction
 - **open reading frame** (ORF) finders were originally used since prokaryotes generally don't have introns
 - extension of OFR finding to predict the most likely CDS region, accuracy can be enhanced with comparative genomics like BLAST
 - gene predictors are good at finding CDS but not great at finding mRNA sequences (including non-coding DNA)
   -  RNA-seq data can provide information on transcription start and stop sites, helping to complete gene annotations
+
 Prokaryotic Gene Prediction Algorithms
 - Prodigal : for CDS prediction
 - OFR finder : identifies all ORFs, usually the longest ORFs that don't overlap are real genes
@@ -18,26 +20,31 @@ Prokaryotic Gene Prediction Algorithms
 - GLIMMER : uses interpolated Markov models to identify the coding regions and distinguish them from noncoding DNA
 - GeneMark
 - Easy Gene
+
 E. coli Resources
 - EcoCyc
 - Regulon
 - E. coli Genome Project
 - Porteco
+
 GC Content
 - GC content tends to be higher in genes
 - organisms can vary significantly in base composition, largely determined by codon usage (many amino acids are coded by multiple codons, some organisms prefer some codons over others)
+
 Some Useful Bacterial and Archaeal Databases and Programs
 - seqinr : R package, allows simple analysis of FASTA-formatted sequences (base count, sequence length, GC content, and more)
 - PATRIC : database of over 10,000 microbial genomes
 - HaloWeb : 52 haloarchaeal species (archaeal species that grow in high salt concentrations)
 - UCSC Archaeal Genome Browser
 - Greengenes : repository for 16S rRNA sequences and tools
+
 Bacterial Promoters
 - **Sigma (σ) Factor**: subunit of RNA polymerase that binds the promoter
   - binding area: sequences at -10 and -35 (relative to the TSS, not the start codon)
   - usually σ70 is used, in heat shock conditions σ32 is used
 - **UP element**: alpha-subunit binding region, AT-rich region near -40 to -60
   - found in strong promoters 
+
 Bacterial Promoter Prediction Methods
 - comparative genomics: compare intergenic regions of related species
   - appropriate evolutionary distance is important - too closely related species will lead to false positives, too far apart only well-conserved promoters are detected
@@ -47,7 +54,9 @@ Bacterial Promoter Prediction Methods
 - incorporating microarray and RNA-seq data
   - identify co-expressed genes that may share common regulators 
   - [CTSP tool]() and [BioProspector]()
+
 Bacterial Promoter Predictors
 - BPROM
 - Neural Network Promoter Prediction
+
 ### Eukaryotic 
