@@ -3,7 +3,8 @@
 ### De Novo versus Expression Based Prediction
 Expression
 - align cDNA and protein to genomic sequences -> predict the coding region of gene
-- primary limitation: lock of cDNA or EST data in sample (genomic data)
+- primary limitation: lack of cDNA or EST data in sample (genomic data)
+
 De Novo
 - used when expression-based fails
 - primary limitation: false positives
