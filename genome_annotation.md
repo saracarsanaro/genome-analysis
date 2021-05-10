@@ -1,6 +1,19 @@
 # Gene Annotation and Structure
+## Eukaryotic 
+### De Novo versus Expression Based Prediction
+
+### De Novo Gene Prediction
+
+### Expression Based Prediction
+
+### Content Sensors
+
+### Signal Sensors
+
+### Gene Structure
+
 ## Prokaryotic
-### Structure
+### Gene Structure
 - mRNA is often **polycistronic**: multiple coding regions in one piece of mRNA
 - an **operon** is a cluster of genes that are controlled by the same promoter
 - a **transcription unit** denotes any segment of DNA that codes for an RNA molecule
@@ -60,4 +73,4 @@
 - [BPROM](http://www.softberry.com/berry.phtml?topic=bprom&group=programs&subgroup=gfindb): to identify σ70 promoters
 - [Neural Network Promoter Prediction](https://www.fruitfly.org/seq_tools/promoter.html)
 
-## Eukaryotic 
+
