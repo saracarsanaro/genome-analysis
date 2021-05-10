@@ -43,7 +43,7 @@ De Novo
 - an **operon** is a cluster of genes that are controlled by the same promoter
 - a **transcription unit** denotes any segment of DNA that codes for an RNA molecule
   - an operon can encompass multiple transcriptional units
-- _transcription start site_ versus _translation start site_
+- _transcription_ start site versus _translation_ start site is important to consider
 
 ### Gene Prediction
 - **open reading frame** (ORF) finders were originally used since prokaryotes generally don't have introns
