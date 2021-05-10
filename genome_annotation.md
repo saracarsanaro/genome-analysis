@@ -10,15 +10,15 @@ De Novo
 - relies on content sensors or signal sensors
 
 ### Expression Based Prediction
-- [Splign]
-- [genomic BLAST]
-- [BLAST]
+- [Splign](https://www.ncbi.nlm.nih.gov/sutils/splign/splign.cgi?textpage=online&level=form)
+- [genomic BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&BLAST_SPEC=MicrobialGenomes)
+- [BLAT](http://genome.ucsc.edu/cgi-bin/hgBlat?command=start)
 
 ### De Novo Gene Prediction
-- [GENESCAN]
-- [HMMGene]
-- [GGENESH]
-- [Augustus]
+- [GENESCAN](http://hollywood.mit.edu/GENSCAN.html)
+- [HMMGene](http://www.cbs.dtu.dk/services/HMMgene/)
+- [GGENESH](http://www.softberry.com/berry.phtml?topic=fgenesh&group=programs&subgroup=gfind)
+- [Augustus](http://bioinf.uni-greifswald.de/augustus/)
 
 ### Content Sensors
 - prediction algorithms that depend on features inherent to the coding sequence
