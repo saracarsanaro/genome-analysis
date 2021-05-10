@@ -1,4 +1,5 @@
 ## Genomic Databases
+### NCBI Genomes, Map Viewer, Variation Viewer
 
 ### Ensembl
 
@@ -13,5 +14,3 @@
 ### IGV
 
 ### ENCODE
-
-### File Formats
