@@ -1,16 +1,40 @@
 # Gene Annotation and Structure
 ## Eukaryotic 
 ### De Novo versus Expression Based Prediction
-
-### De Novo Gene Prediction
+Expression
+- align cDNA and protein to genomic sequences -> predict the coding region of gene
+- primary limitation: lock of cDNA or EST data in sample (genomic data)
+De Novo
+- used when expression-based fails
+- primary limitation: false positives
+- relies on content sensors or signal sensors
 
 ### Expression Based Prediction
+- [Splign]
+- [genomic BLAST]
+- [BLAST]
+
+### De Novo Gene Prediction
+- [GENESCAN]
+- [HMMGene]
+- [GGENESH]
+- [Augustus]
 
 ### Content Sensors
+- prediction algorithms that depend on features inherent to the coding sequence
+-   third base (nucleotide) composition is used in bacteria
+-   hexamer (codon bias and dicodon combinations) frequency is the most reliable content sensor
 
 ### Signal Sensors
+- clues that programs use to find genes based on a particular sequence that is associated with a gene
+-   promoter, splice site, poly(A) signal
+- position-specific scoring matrix (PSSM) can give more weigh to more conserved positions
 
 ### Gene Structure
+- mRNA is processed after transcription - most notably via splicing
+-   the splicing process is independent of CDS location
+- gene predictors are good with coding regions, struggle with 5' and 3' UTRs
+-   RNA-seq has uncovered many new transcripts, some which different in UTR regions only
 
 ## Prokaryotic
 ### Gene Structure
