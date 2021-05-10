@@ -13,6 +13,7 @@ _Sara Carsanaro's Final Portfolio for John Hopkins Spring 2021 Course AS.410.635
 - desktop applications including IGV
 
 ## [Genomic File Formats](./file_formats.md)
+- various file formats you may encounter working in NGS workflows
 
 ## [NGS Sequencing and Analysis](./NGS_sequencing_analysis.md)
 - introduction to model organisms, SNVs and CNVs
