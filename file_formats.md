@@ -5,7 +5,7 @@ designed to store information on _genomic intervals_
 
 0-based versus 1-based
 
-[link image here](/files/0vs1based.png)
+![link image here](/files/0vs1based.png)
 
 simple (minimum) file: 3 columns 
 - chromosome name, start position of entity, end position of entity
