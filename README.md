@@ -21,7 +21,8 @@ _Sara Carsanaro's Final Portfolio for John Hopkins Spring 2021 Course AS.410.635
 - ChIP-seq, RNA-seq, single-cell RNA-seq
 - CRISPR for gene oncology
 
-
+## [Homework and Exams](./files/all_files.md)
+- linked homework and exams from the course
 
 ```markdown
 Syntax highlighted code block
