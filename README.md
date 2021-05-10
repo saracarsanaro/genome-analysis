@@ -11,7 +11,8 @@ _Sara Carsanaro's Final Portfolio for John Hopkins Spring 2021 Course AS.410.635
 - databases including Ensembl, Biomart, UCSC Table Browser, and ENCODE
 - web applications including UCSC and Galaxy
 - desktop applications including IGV
-- genomic file formats
+
+## [Genomic File Formats](./file_formats.md)
 
 ## [NGS Sequencing and Analysis](./NGS_sequencing_analysis.md)
 - introduction to model organisms, SNVs and CNVs
