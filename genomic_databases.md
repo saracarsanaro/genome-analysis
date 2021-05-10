@@ -1,6 +1,7 @@
 ## Genomic Databases
 ### NCBI Genome & Variation Viewer
 via Entrez Genome database - genomes of 306,892 prokaryotes, 42,119 viruses, and 15,544 eukaryotes (1/2021)
+
 [NCBI Genome Data Viewer (GDV)](https://www.ncbi.nlm.nih.gov/genome/gdv/)
 - mostly supports eukaryotic RefSeq genomes
 - [help page](https://www.ncbi.nlm.nih.gov/genome/gdv/browser/help/)
