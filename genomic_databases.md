@@ -16,7 +16,7 @@ The [Gene Tab](http://uswest.ensembl.org/Homo_sapiens/Gene/Summary?db=core;g=ENS
 ### BioMart
 _download data sets from Ensembl_
 
-[BioMart](http://uswest.ensembl.org/biomart/martview/c92977310e04989e7c0a23d938ed684b) is a great tool for mining data from Ensembl. This [video tutorial](https://www.youtube.com/watch?v=DXPaBdPM2vs&list=PLA5333E28D1193B6B&index=5&ab_channel=EnsemblTraining) gives a basic overview of BioMart. Choose **Filters** to limit your data and select **Attributes** to display in the output dataset (tsv). 
+[BioMart](http://uswest.ensembl.org/biomart/martview/c92977310e04989e7c0a23d938ed684b) is a great tool for mining data from Ensembl. This [video tutorial](https://www.youtube.com/watch?v=DXPaBdPM2vs&list=PLA5333E28D1193B6B&index=5&ab_channel=EnsemblTraining) gives a basic overview of BioMart. Choose _Filters_ to limit your data and select _Attributes_ to display in the output dataset (tsv). 
 
 The [Bioconductor Project](https://www.bioconductor.org/) is a collection of R packages created to mine data from genomic datasources. [BiomaRt](https://bioconductor.org/packages/release/bioc/vignettes/biomaRt/inst/doc/biomaRt.html) is a bioconductor package to access data from BioMart. The [user guide](https://bioconductor.org/packages/release/bioc/vignettes/biomaRt/inst/doc/biomaRt.html) is a useful resource for biomaRt.
 
@@ -30,13 +30,7 @@ The [Bioconductor Project](https://www.bioconductor.org/) is a collection of R p
 ### UCSC
 _data from 97 eukaryotic genomes including 49 mammals_
 
-[UCSC Genome Browser](http://genome.ucsc.edu/)
-
-Track Display
-- hide
-- dense
-- full
-- squish
+The [UCSC Genome Browser](http://genome.ucsc.edu/) database holds assembly data, precomputed comparative genomic data, mRNA, EST, and RefSeq gene alignments, ENCODE data, and links to NCBI Map Viewer and Ensembl. Each assembly has a number of tracks that can be displayed or hidden for a region. The track display options are: _Hide_ - don't display; _Dense_ - features are displayed but collapse into a single line; _Full_ - each annotation feature is displayed on a separate line; _Squish_ - each annotation is displayed at 50% height and unlabeled; _Pack_ - similar to squish mode except labeled.
 
 Tracks
 - UCSC Genes
