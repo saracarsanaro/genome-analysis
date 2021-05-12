@@ -21,4 +21,10 @@ designed to store _continuous_ information at _each genomic location_
 
 [WIG](http://genome.ucsc.edu/goldenpath/help/wiggle.html) and [BigWig](https://genome.ucsc.edu/goldenpath/help/bigWig.html) documentation
 
+### SAM
+
+### CIGAR String
+
+### BAM
+
 ### FASTA
