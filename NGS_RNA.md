@@ -17,4 +17,35 @@ An example RNA-seq analysis might be: *FastQC* to check data quality -> *Trimmom
 
 ### Gene Editing
 
-### Model Organisms
+## Model Organisms
+### Yeast
+**Saccharomyces cerevisiae**
+
+**Fission Yeast**, **Aspergillus**, **Candida**, and **Fungi** data-mining interface [FungiDB]()
+
+### Non-Metazoan
+**Giardia**, **Trypanosomes**, **Leishmania**, and general **Protozoan** [genome project]()
+
+**Plasmodium**, **Tetrahymena**, **Toxoplasma gondii**
+
+**Thalassiosira pseudonana** and **Phytophthora**
+
+### Plants
+**Phytophthora**
+
+**Dictyostelium discoideum**
+
+### Metazoan Genomes
+**Caenorhabditis elegans** oh my sweet friend the roundworm. you still haunt me in my dreams sometimes.
+
+**Drosophila melanogaster** the good old fly buzz buzz
+
+**Mouse**, **Chimpanzee**, also Ensembl, UCSC, and IGV are options for higher organisms. 
+
+### Eukaryotic Features
+
+**Repeats**
+
+**Aneuploidy**, **Inversions**, **Chromosome number and synteny**
+
+**Sequence tagged sites**
