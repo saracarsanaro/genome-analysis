@@ -21,6 +21,7 @@ _Sara Carsanaro's Final Portfolio for John Hopkins Spring 2021 Course AS.410.635
 - gene finding programs
 - prokaryotic and eukaryotic gene structure
 - introduction to model organisms
+- noncoding NRAs and UCRs
 
 ## [Genomic File Formats](./file_formats.md)
 - various file formats you may encounter working in NGS workflows
@@ -29,26 +30,5 @@ _Sara Carsanaro's Final Portfolio for John Hopkins Spring 2021 Course AS.410.635
 - linked homework and exams from the course
 
 
-need to include somewhere
-- noncoding NRAs and UCRs
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
