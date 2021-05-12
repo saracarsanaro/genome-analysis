@@ -37,7 +37,7 @@ Attributes
 ### UCSC
 _data from 97 eukaryotic genomes including 49 mammals_
 
-UCSC Genome Browser
+[UCSC Genome Browser](http://genome.ucsc.edu/)
 
 Track Display
 - hide
@@ -53,9 +53,9 @@ Tracks
 
 
 ### UCSC Table Browser
-method for downloading data from UCSC
+_method for downloading data from UCSC_
 
-Table Browser
+[Table Browser](http://genome.ucsc.edu/cgi-bin/hgTables)
 
 ### Galaxy
 _interface designed to analyze comparative genomic data both from publicly available databases (Ensembl, UCSC) and user-derived data_
