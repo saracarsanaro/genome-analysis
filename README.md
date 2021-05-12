@@ -1,10 +1,6 @@
 # 🧬-💻-🌟 Tools for Genome Analysis
 _Sara Carsanaro's Final Portfolio for John Hopkins Spring 2021 Course AS.410.635 Bioinformatics: Tools for Genome Analysis_
 
-## [Gene Annotation and Structure](./genome_annotation.md)
-- prokaryotic and eukaryotic gene structure
-- gene finding programs
-
 ## [Genomic Databases](./genomic_databases.md)
 - databases including Ensembl, Biomart, UCSC Table Browser, and ENCODE
 - web applications including UCSC and Galaxy
@@ -21,11 +17,19 @@ _Sara Carsanaro's Final Portfolio for John Hopkins Spring 2021 Course AS.410.635
 - CRISPR for gene oncology
 - introduction to model organisms
 
+## [Gene Annotation and Structure](./genome_annotation.md)
+- prokaryotic and eukaryotic gene structure
+- gene finding programs
+
 ## [Genomic File Formats](./file_formats.md)
 - various file formats you may encounter working in NGS workflows
 
 ## [Homework and Exams](./files/all_files.md)
 - linked homework and exams from the course
+
+
+need to include somewhere
+- noncoding NRAs and UCRs
 
 ```markdown
 Syntax highlighted code block
