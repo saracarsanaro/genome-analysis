@@ -15,8 +15,6 @@ An example RNA-seq analysis might be: *FastQC* to check data quality -> *Trimmom
 
 ### Single-Cell RNA-seq
 
-### Gene Editing
-
 ## Model Organisms
 ### Yeast
 **Saccharomyces cerevisiae**
