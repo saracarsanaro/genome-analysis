@@ -13,13 +13,14 @@ _Sara Carsanaro's Final Portfolio for John Hopkins Spring 2021 Course AS.410.635
 - variant calling
 
 ## [NGS Sequencing and Analysis: RNA and Beyond](./NGS_RNA.md)
-- ChIP-seq, RNA-seq, single-cell RNA-seq
-- CRISPR for gene oncology
-- introduction to model organisms
+- ChIP-seq
+- RNA-seq 
+- single-cell RNA-seq
 
 ## [Gene Annotation and Structure](./genome_annotation.md)
-- prokaryotic and eukaryotic gene structure
 - gene finding programs
+- prokaryotic and eukaryotic gene structure
+- introduction to model organisms
 
 ## [Genomic File Formats](./file_formats.md)
 - various file formats you may encounter working in NGS workflows
