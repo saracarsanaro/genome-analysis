@@ -37,7 +37,7 @@ Some **_Tracks_** worth mentioning include UCSC Genes - gene prediction set from
 ### UCSC Table Browser
 _method for downloading data from UCSC_
 
-[Table Browser](http://genome.ucsc.edu/cgi-bin/hgTables)
+The [Table Browser](http://genome.ucsc.edu/cgi-bin/hgTables) is incredibly useful for downloading data from UCSC. This [user guide](https://genome.ucsc.edu/goldenPath/help/hgTablesHelp.html#Filter) details how to use the table browser. You must choose the genome, assembly, track, and table to pull from. You can limit to a specific region in the genome and add other filters. You can specify the output file type, and there is an option to export directly to Galaxy. 
 
 ### Galaxy
 _interface designed to analyze genomic data both from publicly available databases (Ensembl, UCSC) and user-derived data_
@@ -54,13 +54,7 @@ Galaxy [bioinformatics tutorials](https://training.galaxyproject.org/training-ma
 ### IGV
 _a local data visualization application designed to handle large data sets - browse at high resolution for small regions and lower resolution for larger regions_
 
-loading data
-- supports many data types - BED, BigWig
-- accessing genomes 
-- load data from server, a file or a URL
-
-viewing data
-
+IGV is a local application for visualizing various types of genomic data. IGV supports many data types, includinig BAM, BED, BigWig, GTF, and VCF. To load data, first select a reference genome. Then load data from a file, a URL, or from the server (dbSNP, TCGA, ENCODE, 1000 genomes). To view data, select/search for a chromosomal region or a gene. Depending on the datatype, additional features may be available (ex. Sashimi plot for RNA-seq data, BLAT for DNA or RNA-seq data). See the [IGV User Guide](https://software.broadinstitute.org/software/igv/UserGuide) for more details. 
 
 ### ENCODE
 _a catalog functional elements in the human genome_
