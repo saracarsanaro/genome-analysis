@@ -3,7 +3,7 @@ _Sara Carsanaro's Final Portfolio for John Hopkins Spring 2021 Course AS.410.635
 
 ## [Genomic Databases](./genomic_databases.md)
 - databases including Ensembl, Biomart, UCSC Table Browser, and ENCODE
-- web applications including UCSC and Galaxy
+- web applications including UCSC and Galaxy (move do DNA seq analysis)
 - desktop applications including IGV
 
 ## [NGS Sequencing and Analysis: DNA](./NGS_sequencing_analysis.md)
