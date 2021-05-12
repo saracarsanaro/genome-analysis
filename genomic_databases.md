@@ -42,14 +42,14 @@ _method for downloading data from UCSC_
 ### Galaxy
 _interface designed to analyze genomic data both from publicly available databases (Ensembl, UCSC) and user-derived data_
 
-Access via Web Interface, Local Galaxy, Galaxy on the Cloud
+Galaxy can be accessed via the [Web Interface](https://usegalaxy.org/), [locally](https://galaxyproject.org/admin/get-galaxy/), [on the cloud](https://galaxyproject.org/cloudman/). It is a great tool for small-scale DNA, RNA, ChIP, and single-cell RNA-seq analysis.
 
 ```
 Galaxy Workflows
 - list here
 ```
 
-Galaxy Tutorials
+Galaxy [bioinformatics tutorials](https://training.galaxyproject.org/training-material/) for scientists are great to work through.
 
 ### IGV
 _a local data visualization application designed to handle large data sets - browse at high resolution for small regions and lower resolution for larger regions_
