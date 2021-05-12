@@ -9,9 +9,7 @@ _genome browser for chordates and non-chordate model organisms_
 
 [Ensembl Homepage](http://uswest.ensembl.org/index.html)
 
-[Chromosome View](http://uswest.ensembl.org/Homo_sapiens/Location/Chromosome?r=11)
-
-[Region in Detail](http://uswest.ensembl.org/Homo_sapiens/Location/View?db=core;g=ENSG00000244734;r=11:5225386-5229473)
+The [Chromosome View](http://uswest.ensembl.org/Homo_sapiens/Location/Chromosome?r=11) tab has data on protein coding genes, short & long non-coding genes, pseudogenes, %GC Repeats and variations on each chromosome. The [Region in Detail](http://uswest.ensembl.org/Homo_sapiens/Location/View?db=core;g=ENSG00000244734;r=11:5225386-5229473) tab has information on transcripts, proteins, orthologs, paralogs, gene variation data, splice variants, %GC, and comparative genomes in that region. 
 
 Location Tab
 
@@ -21,7 +19,7 @@ Transcript Tab
 
 [Ensembl YouTube Page](https://www.youtube.com/channel/UCKGzTZIXfs2HX44X3HqBtDA): great demos
 
-[Ensembl Genomes](http://ensemblgenomes.org/): Ensembl browser for non-vertebrates (bacteria, protists, fungi, plants, and invertebrate metazoa)
+[Ensembl Genomes](http://ensemblgenomes.org/) iis the Ensembl browser for non-vertebrates including bacteria, protists, fungi, plants, and invertebrate metazoa.
 
 ### BioMart
 _download data sets from Ensembl_
