@@ -45,6 +45,10 @@ De Novo
   - an operon can encompass multiple transcriptional units
 - _transcription_ start site versus _translation_ start site is important to consider
 
+### GC Content
+- GC content tends to be higher in genes
+- organisms can vary significantly in base composition, largely determined by codon usage (many amino acids are coded by multiple codons, some organisms prefer some codons over others)
+
 ### Gene Prediction
 - **open reading frame** (ORF) finders were originally used since prokaryotes generally don't have introns
 - extension of OFR finding to predict the most likely CDS region, accuracy can be enhanced with comparative genomics like BLAST
@@ -59,23 +63,6 @@ De Novo
 - [Prodigal](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-11-119): for CDS prediction
 - [GeneMark](http://exon.gatech.edu/GeneMark/gmhmmp.cgi)
 - [Easy Gene](http://www.cbs.dtu.dk/services/EasyGene/)
-
-### E. coli Resources
-- [EcoCyc](https://ecocyc.org/)
-- [Regulon](http://regulondb.ccg.unam.mx/)
-- [E. coli Genome Project](https://www.genome.wisc.edu/)
-- [Porteco](http://porteco.org/)
-
-### GC Content
-- GC content tends to be higher in genes
-- organisms can vary significantly in base composition, largely determined by codon usage (many amino acids are coded by multiple codons, some organisms prefer some codons over others)
-
-### Some Useful Bacterial and Archaeal Databases and Programs
-- [seqinr](https://a-little-book-of-r-for-bioinformatics.readthedocs.io/en/latest/src/chapter1.html): R package, allows simple analysis of FASTA-formatted sequences (base count, sequence length, GC content, and more)
-- [PATRIC](https://patricbrc.org/): database of over 10,000 microbial genomes
-- [HaloWeb](https://halo.umbc.edu/): 52 haloarchaeal species (archaeal species that grow in high salt concentrations)
-- [UCSC Archaeal Genome Browser](http://archaea.ucsc.edu/)
-- [Greengenes](https://greengenes.lbl.gov/Download/): repository for 16S rRNA sequences and tools
 
 ### Bacterial Promoters
 - **Sigma (σ) Factor**: subunit of RNA polymerase that binds the promoter
@@ -98,4 +85,15 @@ De Novo
 - [BPROM](http://www.softberry.com/berry.phtml?topic=bprom&group=programs&subgroup=gfindb): to identify σ70 promoters
 - [Neural Network Promoter Prediction](https://www.fruitfly.org/seq_tools/promoter.html)
 
+### E. coli Resources
+- [EcoCyc](https://ecocyc.org/)
+- [Regulon](http://regulondb.ccg.unam.mx/)
+- [E. coli Genome Project](https://www.genome.wisc.edu/)
+- [Porteco](http://porteco.org/)
 
+### Some Useful Bacterial and Archaeal Databases and Programs
+- [seqinr](https://a-little-book-of-r-for-bioinformatics.readthedocs.io/en/latest/src/chapter1.html): R package, allows simple analysis of FASTA-formatted sequences (base count, sequence length, GC content, and more)
+- [PATRIC](https://patricbrc.org/): database of over 10,000 microbial genomes
+- [HaloWeb](https://halo.umbc.edu/): 52 haloarchaeal species (archaeal species that grow in high salt concentrations)
+- [UCSC Archaeal Genome Browser](http://archaea.ucsc.edu/)
+- [Greengenes](https://greengenes.lbl.gov/Download/): repository for 16S rRNA sequences and tools
