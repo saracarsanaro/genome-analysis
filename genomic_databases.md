@@ -9,9 +9,7 @@ _genome browser for chordates and non-chordate model organisms_
 
 [Ensembl Homepage](http://uswest.ensembl.org/index.html)
 
-The [Chromosome View](http://uswest.ensembl.org/Homo_sapiens/Location/Chromosome?r=11) tab has data on protein coding genes, short & long non-coding genes, pseudogenes, %GC Repeats and variations on each chromosome. The [Region in Detail](http://uswest.ensembl.org/Homo_sapiens/Location/View?db=core;g=ENSG00000244734;r=11:5225386-5229473) tab has information on transcripts, proteins, orthologs, paralogs, gene variation data, splice variants, %GC, and comparative genomes in that region. 
-
-Location Tab
+The [Chromosome View](http://uswest.ensembl.org/Homo_sapiens/Location/Chromosome?r=11) tab has data on protein coding genes, short & long non-coding genes, pseudogenes, %GC Repeats and variations on each chromosome. The [Region in Detail](http://uswest.ensembl.org/Homo_sapiens/Location/View?db=core;g=ENSG00000244734;r=11:5225386-5229473) tab has information on transcripts, proteins, orthologs, paralogs, gene variation data, splice variants, %GC, and comparative genomes in that region. The location tab is specific to a chromosomal region and includes links for [Alignment](http://uswest.ensembl.org/Homo_sapiens/Location/Compara_Alignments?align=1944;db=core;g=ENSG00000244734;r=11:5225386-5229473;t=ENST00000485743), [Synteny Maps](http://uswest.ensembl.org/Homo_sapiens/Location/Synteny?align=1944;db=core;g=ENSG00000244734;r=11:5225386-5229473;t=ENST00000485743), and [Genetic Variation](http://uswest.ensembl.org/Homo_sapiens/Location/Variant/Table?align=1944;db=core;g=ENSG00000244734;r=11:5225386-5229473;t=ENST00000485743).
 
 Gene Tab
 
