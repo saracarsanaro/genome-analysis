@@ -56,5 +56,7 @@ _a local data visualization application designed to efficiently handle large gen
 
 IGV is a local application for visualizing various types of genomic data. IGV supports many data types, includinig BAM, BED, BigWig, GTF, and VCF. To load data, first select a reference genome. Then load data from a file, a URL, or from the server (dbSNP, TCGA, ENCODE, 1000 genomes). To view data, select/search for a chromosomal region or a gene. Depending on the datatype, additional features may be available (like Sashimi plot  or BLAT). See the [IGV User Guide](https://software.broadinstitute.org/software/igv/UserGuide) for more details. 
 
+### ClinVar
+
 ### ENCODE
 _a catalog functional elements in the human genome_
