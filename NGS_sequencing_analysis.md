@@ -7,7 +7,7 @@ The functional consequences of a SNP include _coding_ - protein variation; _sile
 
 The three categories of SNPs are _synonymous_ - coding region, amino acid doesn't change; _non-synonymous_ - coding region, amino acid changes; and _noncoding_ - in a noncoding region.
 
-A number of SNP databases exist. 
+A number of SNP databases exist. [dbSNP]() via NCBI is the largest databased of SNPs, MNPs, and snort indels. [SNPEffect] focuses on the effect of SNPs on proteins & protein function (ex protein stability & folding). [SNPedia]() is a wiki that collects information from publications on known SNPs and their clinical effects. The [1000 Genomes Browser]() and [Variation Viewer]() are good resources for visualizing SNPs. [ClinVar]() is a good resource for curated variations that have possible medical and clinical relevance.
 
 ### CNVs
 
