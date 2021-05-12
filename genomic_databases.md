@@ -40,7 +40,7 @@ _method for downloading data from UCSC_
 [Table Browser](http://genome.ucsc.edu/cgi-bin/hgTables)
 
 ### Galaxy
-_interface designed to analyze comparative genomic data both from publicly available databases (Ensembl, UCSC) and user-derived data_
+_interface designed to analyze genomic data both from publicly available databases (Ensembl, UCSC) and user-derived data_
 
 Access via Web Interface, Local Galaxy, Galaxy on the Cloud
 
