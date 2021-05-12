@@ -49,7 +49,7 @@ Galaxy Workflows
 - list here
 ```
 
-Galaxy [bioinformatics tutorials](https://training.galaxyproject.org/training-material/) for scientists are great to work through.
+Galaxy [bioinformatics tutorials](https://training.galaxyproject.org/training-material/) for scientists are great to work through. Answer questions like [which exon on chr22 has the most SNPs](https://galaxyproject.org/tutorials/g101/).
 
 ### IGV
 _a local data visualization application designed to handle large data sets - browse at high resolution for small regions and lower resolution for larger regions_
