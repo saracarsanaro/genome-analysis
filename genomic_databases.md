@@ -16,16 +16,9 @@ The [Gene Tab](http://uswest.ensembl.org/Homo_sapiens/Gene/Summary?db=core;g=ENS
 ### BioMart
 _download data sets from Ensembl_
 
-[BioMart Start Page](http://uswest.ensembl.org/biomart/martview/c92977310e04989e7c0a23d938ed684b) and [video tutorial](https://www.youtube.com/watch?v=DXPaBdPM2vs&list=PLA5333E28D1193B6B&index=5&ab_channel=EnsemblTraining)
+[BioMart](http://uswest.ensembl.org/biomart/martview/c92977310e04989e7c0a23d938ed684b) is a great tool for mining data from Ensembl. This [video tutorial](https://www.youtube.com/watch?v=DXPaBdPM2vs&list=PLA5333E28D1193B6B&index=5&ab_channel=EnsemblTraining) gives a basic overview of BioMart. Choose **Filters** to limit your data and select **Attributes** to display in the output dataset (tsv). 
 
-Filters
-
-Attributes
-
-[Bioconductor Project](https://www.bioconductor.org/): use R to mine data from various sources
-
-[BiomRt](https://bioconductor.org/packages/release/bioc/vignettes/biomaRt/inst/doc/biomaRt.html): R bioconductor package to access data from Ensembl
-- user guide
+The [Bioconductor Project](https://www.bioconductor.org/) is a collection of R packages created to mine data from genomic datasources. [BiomaRt](https://bioconductor.org/packages/release/bioc/vignettes/biomaRt/inst/doc/biomaRt.html) is a bioconductor package to access data from BioMart. The [user guide](https://bioconductor.org/packages/release/bioc/vignettes/biomaRt/inst/doc/biomaRt.html) is a useful resource for biomaRt.
 
 ```
 - getBM command problems
