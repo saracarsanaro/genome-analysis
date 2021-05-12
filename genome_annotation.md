@@ -37,6 +37,19 @@ De Novo
 - gene predictors are good with coding regions, struggle with 5' and 3' UTRs
   - RNA-seq has uncovered many new transcripts, some which different in UTR regions only
 
+### Eukaryotic Features
+**Repeats**
+
+**Aneuploidy**, **Inversions**, **Chromosome number and synteny**
+
+**Sequence tagged sites**
+
+### Functional RNAs
+
+
+### Conserved Noncoding Elements
+[ANCORA](), [cneViewer](), [UCNEBase](), and [CEGA]()
+
 ## Prokaryotic
 ### Gene Structure
 - mRNA is often **polycistronic**: multiple coding regions in one piece of mRNA
@@ -97,3 +110,29 @@ De Novo
 - [HaloWeb](https://halo.umbc.edu/): 52 haloarchaeal species (archaeal species that grow in high salt concentrations)
 - [UCSC Archaeal Genome Browser](http://archaea.ucsc.edu/)
 - [Greengenes](https://greengenes.lbl.gov/Download/): repository for 16S rRNA sequences and tools
+
+
+## Model Organisms
+### Yeast
+**Saccharomyces cerevisiae**
+
+**Fission Yeast**, **Aspergillus**, **Candida**, and **Fungi** data-mining interface [FungiDB]()
+
+### Non-Metazoan
+**Giardia**, **Trypanosomes**, **Leishmania**, and general **Protozoan** [genome project]()
+
+**Plasmodium**, **Tetrahymena**, **Toxoplasma gondii**
+
+**Thalassiosira pseudonana** and **Phytophthora**
+
+### Plants
+**Phytophthora**
+
+**Dictyostelium discoideum**
+
+### Metazoan Genomes
+**Caenorhabditis elegans** oh my sweet friend the roundworm. you still haunt me in my dreams sometimes.
+
+**Drosophila melanogaster** the good old fly buzz buzz
+
+**Mouse**, **Chimpanzee**, also Ensembl, UCSC, and IGV are options for higher organisms. 
