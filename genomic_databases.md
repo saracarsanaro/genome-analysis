@@ -52,7 +52,7 @@ Galaxy Workflows
 Galaxy [bioinformatics tutorials](https://training.galaxyproject.org/training-material/) for scientists are great to work through. Answer questions like [which exon on chr22 has the most SNPs](https://galaxyproject.org/tutorials/g101/), [which genes are differentially expressed in these RNA-seq datasets](https://usegalaxy.org/u/jeremy/p/galaxy-rna-seq-analysis-exercise).
 
 ### IGV
-_a local data visualization application designed to handle large data sets - browse at high resolution for small regions and lower resolution for larger regions_
+_a local data visualization application designed to efficiently handle large genomic data sets at high and low resolutions_
 
 IGV is a local application for visualizing various types of genomic data. IGV supports many data types, includinig BAM, BED, BigWig, GTF, and VCF. To load data, first select a reference genome. Then load data from a file, a URL, or from the server (dbSNP, TCGA, ENCODE, 1000 genomes). To view data, select/search for a chromosomal region or a gene. Depending on the datatype, additional features may be available (like Sashimi plot  or BLAT). See the [IGV User Guide](https://software.broadinstitute.org/software/igv/UserGuide) for more details. 
 
