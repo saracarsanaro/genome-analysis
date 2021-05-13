@@ -9,17 +9,17 @@ Some **Expression Based Prediction** methods include: [Splign](https://www.ncbi.
 
 ### Eukaryotic Genome Features
 
-mRNA is processed after transcription, most notably via splicing. The splicing process is independent of CDS location.
+mRNA is processed after transcription, most notably via splicing. The splicing process is independent of CDS location. Gene expression depends on transcription factor binding and access, and chromatin plays a major role in transcription factor access. 
 
 Genomic regions with 50% GC content or more tend to have high **Gene Density**. The overall CG content of the human genome is 41%, however some regions differ severely from this average. 
 
 **CpG Islands** are regions with high concentraions of CpG (C followed by G on the same strand). CpG should occur at 4.41% frequency in the genome, however it actually occurs at less than 1% frequency. CpG Islands are believed to be associated with promoters and transcription start sites. The CpG Track is available via UCSC. 
 
-Approximately 10% of the human genome consists of **Repeats**. Repeat DNA likely plays a role in eukaryotic life, however the specific nature is unclear.  
+Approximately 10% of the human genome consists of **Repeats**. Repeat DNA likely plays a role in eukaryotic life, however the specific nature is unclear. The broad categories of repeats are _Interspersed repeats_: Includes long-terminal repeat (LTR)-containing long interspersed elements (LINEs) and short elements (SINEs). These are transposon-derived repeats and include Alu. There is a RepeatMasker track on the UCSC Genome Browser  ; _Pseudogenes_: Derived from genes, but no longer functional. There is a pseudogene track at UCSC; _Simple Repeats_: Short repetitive sequences or low complexity regions, such as (A)10, which is a string of 10 As, or (CG)20, which is CG repeated 20 times; _Segmental Duplications_: Large duplications, usually a kilobase or more, which can occur on the same chromosome or on a different one from the original; and _Tandem repeats_: Associated with telomeres, centromeres, and rDNA.
 
-**Aneuploidy**, **Inversions**, **Chromosome number and synteny**
+**Aneuploidy** is the presence of an abnormal number of chromosomes in a cell, and is usually caused by nondisjunction in meiosis. It is common for two closely related species to have one region of a chromosome inverted. **Inversions** can also occur within populations, and are sometimes associated with disease. **Synteny Maps** are designed to map related regions of genomes, and show related regions between species on different chromosomes. Fusion or splitting of chromosomes often occur in speciation. 
 
-**Sequence tagged sites**
+**Sequence tagged sites** are short regions of a very unique DNA sequence. They are suggested locations for a PCR primer, as there shouldn't be a similar sequence elsewhere in the genome. Ideally these sites shouldn't have any SNPs, and every individual in the population should have that sequence. An STS also found in a different species can be useful for cross-genome comparisons.
 
 ### Functional RNAs
 
@@ -46,11 +46,7 @@ Two important elements of bacterial promoters are the sigma factor and UP elemen
   - cons: false positives, may miss unusual promoters
 - incorporating microarray and RNA-seq data
   - identify co-expressed genes that may share common regulators 
-  - [CTSP tool](http://cstp.molgen.mpg.de/) and [BioProspector](http://ai.stanford.edu/~xsliu/BioProspector/)
-
-### Bacterial Promoter Predictors
-- [BPROM](http://www.softberry.com/berry.phtml?topic=bprom&group=programs&subgroup=gfindb): to identify σ70 promoters
-- [Neural Network Promoter Prediction](https://www.fruitfly.org/seq_tools/promoter.html)
+The [CTSP tool](http://cstp.molgen.mpg.de/) and [BioProspector](http://ai.stanford.edu/~xsliu/BioProspector/) are promoter predictors that incorporate microarray and RNA-seq data. Other **Bacterial Promoter Predictors** include [BPROM](http://www.softberry.com/berry.phtml?topic=bprom&group=programs&subgroup=gfindb) to identify σ70 promoters, and the [Neural Network Promoter Prediction](https://www.fruitfly.org/seq_tools/promoter.html) tool. 
 
 ### Prokaryotic Resources
 Some E. coli resources include [EcoCyc](https://ecocyc.org/); [Regulon](http://regulondb.ccg.unam.mx/); [E. coli Genome Project](https://www.genome.wisc.edu/); and [Porteco](http://porteco.org/). Other bacterial and archaeal databases and programs include [seqinr](https://a-little-book-of-r-for-bioinformatics.readthedocs.io/en/latest/src/chapter1.html) an R package that allows simple analysis of FASTA-formatted sequences (base count, sequence length, GC content, and more); [PATRIC](https://patricbrc.org/) a database of over 10,000 microbial genomes; [HaloWeb](https://halo.umbc.edu/) a database of 52 haloarchaeal species (archaeal species that grow in high salt concentrations); the [UCSC Archaeal Genome Browser](http://archaea.ucsc.edu/); and [Greengenes](https://greengenes.lbl.gov/Download/) a repository for 16S rRNA sequences and tools.
@@ -58,7 +54,7 @@ Some E. coli resources include [EcoCyc](https://ecocyc.org/); [Regulon](http://r
 
 ## Model Organisms
 ### Yeast
-**Saccharomyces cerevisiae** is a well-studied eukaryote that grows like a prokaryote. Only 4% of the genes have introns and there is very little intergenic space. ORF finding works well to identify genes in s. cerevisiae. [NCBI Genome Data Viewer](https://www.ncbi.nlm.nih.gov/genome/gdv/?org=saccharomyces-cerevisiae) and [UCSC]() are good general resources for s. cerevisiae. [SDG](http://genome.ucsc.edu/cgi-bin/hgGateway?hgsid=155744526&clade=other&org=0&db=0) is an extensive resource for budding yeast genomes, including genome browsing, info on ORFs and protein domains, 3D structures, BLAST, ontology terms, and gene expression data. [ScerTF](http://stormo.wustl.edu/ScerTF) is a database of s. cerevisiae transcription factors. 
+**Saccharomyces cerevisiae** is a well-studied eukaryote that grows like a prokaryote. Only 4% of the genes have introns and there is very little intergenic space. ORF finding works well to identify genes in s. cerevisiae. [NCBI Genome Data Viewer](https://www.ncbi.nlm.nih.gov/genome/gdv/?org=saccharomyces-cerevisiae) and [UCSC](http://genome.ucsc.edu/cgi-bin/hgGateway?hgsid=155744526&clade=other&org=0&db=0) are good general resources for s. cerevisiae. [SDG](http://genome.ucsc.edu/cgi-bin/hgGateway?hgsid=155744526&clade=other&org=0&db=0) is an extensive resource for budding yeast genomes, including genome browsing, info on ORFs and protein domains, 3D structures, BLAST, ontology terms, and gene expression data. [ScerTF](http://stormo.wustl.edu/ScerTF) is a database of s. cerevisiae transcription factors. 
 
 **Gene Duplication** occurs often in eukaryotes, with 4 broad fates after gene duplication: both copies remain w/ little mutation providing extra source for transcription/gene expression; one copy is deleted or permanently damaged; one copy accumulates mutations & becomes a pseudogene; and paralogous - one or both copies evolve to have different functions. The deletion fate is most common. The [Yeast Gene Order Browser](http://ygob.ucd.ie/) is a tool for visualising the syntenic context of any gene from several yeast genomes.
 
