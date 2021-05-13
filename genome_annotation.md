@@ -58,7 +58,9 @@ Some E. coli resources include [EcoCyc](https://ecocyc.org/); [Regulon](http://r
 
 **Gene Duplication** occurs often in eukaryotes, with 4 broad fates after gene duplication: both copies remain w/ little mutation providing extra source for transcription/gene expression; one copy is deleted or permanently damaged; one copy accumulates mutations & becomes a pseudogene; and paralogous - one or both copies evolve to have different functions. The deletion fate is most common. The [Yeast Gene Order Browser](http://ygob.ucd.ie/) is a tool for visualising the syntenic context of any gene from several yeast genomes.
 
-**Fission Yeast**, **Aspergillus**, **Candida**, and **Fungi** data-mining interface [FungiDB]() and [EnsemblFungi](http://fungi.ensembl.org/index.html).
+**Fission Yeast** Schizosaccharomyces pombe better resembles higher eukaryotes than s. cerevisiae due to the increased presence of introns. [PomBase](https://www.pombase.org/) is a genome browser that includes s. pombe and other species in the Schizosaccharomyces genus. 
+
+**Aspergillus** resources include [AspGD](http://www.aspgd.org/), an Aspergillus genome database, and [Aspergillus Comparative Database](https://www.broadinstitute.org/fungal-genome-initiative/aspergillus-genome-projects) which focuses on comparative genomics in Aspergillus. A good **Candida** resource is [Candida Genome Database](http://candidagenome.org/), which has manually curated sequence data for Candida species. For general **Fungi** resources, there is the data-mining interface [FungiDB](https://fungidb.org/fungidb/app) and the genome browser [EnsemblFungi](http://fungi.ensembl.org/index.html).
 
 ### Non-Metazoan
 **Giardia**, **Trypanosomes**, **Leishmania**, and general **Protozoan** [genome project]()
