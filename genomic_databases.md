@@ -58,7 +58,7 @@ IGV is a local application for visualizing various types of genomic data. IGV su
 
 ### ClinVar
 _curated database of genomic variation and its relationship to human health_ 
-[ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/) is a useful database of variation and phenotypiic or clinical relevance.
+[ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/) is a useful database of variation and phenotypiic or clinical relevance. Search ClinVar by **gene symbol** - BRCA1[gene], **disease** - "breast cancer"[dis], and/or other terms. ClinVar filters include _clinical significance_, _review status_, _molecular consequence_, and _variation type_. Click on the variant for the supporting evidence and citations for the variant classification. 
 
 ### ENCODE
 _a catalog functional elements in the human genome_
