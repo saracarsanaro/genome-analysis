@@ -17,14 +17,16 @@ _Sara Carsanaro's Final Portfolio for John Hopkins Spring 2021 Course AS.410.635
 - RNA-seq 
 - single-cell RNA-seq
 
+## [Genomic File Formats](./file_formats.md)
+- various file formats you may encounter working in NGS workflows
+
 ## [Gene Annotation and Structure](./genome_annotation.md)
 - gene finding programs
 - prokaryotic and eukaryotic gene structure
-- introduction to model organisms
 - noncoding NRAs and UCRs
 
-## [Genomic File Formats](./file_formats.md)
-- various file formats you may encounter working in NGS workflows
+## [Model Organisms](./model_orgs.md)
+- genomic resources for various model organisms
 
 ## [Homework and Exams](./files/all_files.md)
 - linked homework and exams from the course
