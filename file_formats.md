@@ -25,6 +25,6 @@ _designed to store continuous information at each genomic location_
 
 **BigWig** is a compressed version of a WIG file. See [WIG](http://genome.ucsc.edu/goldenpath/help/wiggle.html) and [BigWig](https://genome.ucsc.edu/goldenpath/help/bigWig.html) documentation for more information.
 
-### FASTA
+### FASTA/FASTQ
 
 ### VCF
