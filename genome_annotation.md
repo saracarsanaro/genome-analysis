@@ -38,7 +38,12 @@ De Novo
   - RNA-seq has uncovered many new transcripts, some which different in UTR regions only
 
 ### Eukaryotic Features
-**Repeats**
+
+Genomic regions with 50% GC content or more tend to have high **Gene Density**. The overall CG content of the human genome is 41%, however some regions differ severely from this average. 
+
+**CpG Islands** are regions with high concentraions of CpG (C followed by G on the same strand). CpG should occur at 4.41% frequency in the genome, however it actually occurs at less than 1% frequency. CpG Islands are believed to be associated with promoters and transcription start sites. The CpG Track is available via UCSC. 
+
+Approximately 10% of the human genome consists of **Repeats**. Repeat DNA likely plays a role in eukaryotic life, however the specific nature is unclear.  
 
 **Aneuploidy**, **Inversions**, **Chromosome number and synteny**
 
