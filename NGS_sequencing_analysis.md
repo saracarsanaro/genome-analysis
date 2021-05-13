@@ -10,6 +10,9 @@ The three categories of SNPs are _synonymous_ - coding region, amino acid doesn'
 A number of SNP databases exist. [dbSNP](https://www.ncbi.nlm.nih.gov/snp/) via NCBI is the largest database of SNPs, MNPs, and short indels. [SNPEffect](https://snpeffect.switchlab.org/) focuses on predicting the impact of SNPs on the structural phenotype of proteins. [SNPedia](https://www.snpedia.com/index.php/SNPedia) is a wiki that collects information from publications on known SNPs and their clinical effects. The [1000 Genomes Browser](https://www.ncbi.nlm.nih.gov/variation/tools/1000genomes/) and [Variation Viewer](https://www.ncbi.nlm.nih.gov/variation/view/) are good resources for visualizing SNPs. [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/) is a curated database of variants and their phenotypiic or clinical relevance.
 
 ### CNVs
+Copy number variation and other structural variations have been identified in human, chimp, fly, and mouse genomes. The microhomology-mediated break induced replication ([MMBIR](https://pubmed.ncbi.nlm.nih.gov/19597530/)) method may explain where there seem to be hotspots in genomes for CNVs. Non-allelic homologous recombination ([NAHR](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0633-1)) is also linked to copy number variations, deletions, and inversions. CNVs can be neutral or linked to disease.
+
+The [Database of Genomic Variants](http://dgv.tcag.ca/dgv/app/home) has a DGV Structural Variants track to visualize CNVs, which is also found on UCSC. Other CNV databases include [DECIPHER](https://www.deciphergenomics.org/) - the DatabasE of Chromosomal Imbalance and Phenotype in Humans, NCBI's [dbVAR](https://www.ncbi.nlm.nih.gov/dbvar/), [Variation Viewer]() - exon pattern track and dbVar ClinVar Large Variations track, and [gnomAD SVs]() - visualize structural variants in the population. 
 
 ### BEDtools and SAMtools
 
