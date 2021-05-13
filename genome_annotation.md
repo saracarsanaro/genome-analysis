@@ -58,7 +58,7 @@ Some E. coli resources include [EcoCyc](https://ecocyc.org/); [Regulon](http://r
 **Aspergillus** resources include [AspGD](http://www.aspgd.org/), an Aspergillus genome database, and [Aspergillus Comparative Database](https://www.broadinstitute.org/fungal-genome-initiative/aspergillus-genome-projects) which focuses on comparative genomics in Aspergillus. A good **Candida** resource is [Candida Genome Database](http://candidagenome.org/), which has manually curated sequence data for Candida species. For general **Fungi** resources, there is the data-mining interface [FungiDB](https://fungidb.org/fungidb/app) and the genome browser [EnsemblFungi](http://fungi.ensembl.org/index.html).
 
 ### Non-Metazoan
-**Giardia**, **Trypanosomes**, **Leishmania**, and general **Protozoan** [genome project]()
+The [Sanger Protozoan Genomes Projects](https://www.sanger.ac.uk/resources/downloads/protozoa/) provides access to protozoan genomes sequenced at the Wellcome Sanger Institute. Other more specific databases include [Giardia DB](https://giardiadb.org/giardiadb/app), Trypanosomes & Leishmania via [GeneDB](https://www.genedb.org/), and [Trypanocyc](http://vm-trypanocyc.toulouse.inra.fr/).
 
 **Plasmodium**, **Tetrahymena**, **Toxoplasma gondii**
 
