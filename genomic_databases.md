@@ -32,7 +32,7 @@ _data from 97 eukaryotic genomes including 49 mammals_
 
 The [UCSC Genome Browser](http://genome.ucsc.edu/) database holds assembly data, precomputed comparative genomic data, mRNA, EST, and RefSeq gene alignments, ENCODE data, and links to NCBI Map Viewer and Ensembl. Each assembly has a number of tracks that can be displayed or hidden for a region. The track display options are: **_Hide_** - don't display; **_Dense_** - features are displayed but collapse into a single line; **_Full_** - each annotation feature is displayed on a separate line; **_Squish_** - each annotation is displayed at 50% height and unlabeled; **_Pack_** - similar to squish mode except labeled.
 
-Some **_Tracks_** worth mentioning include UCSC Genes - gene prediction set from RefSeq, GenBank, and UniProt; Conservation - conservation data for up to 100 other species; SNPs - variation data; GTEx - gene expression; ENCODE - regulation data including histones. 
+Some **_Tracks_** worth mentioning include UCSC Genes - gene prediction set from RefSeq, GenBank, and UniProt; Conservation - conservation data for up to 100 other species; SNPs - variation data; GTEx - gene expression; ENCODE - regulation data including histone modifications, ClinVar and ClinGen, and dbSNP. 
 
 ### UCSC Table Browser
 _method for downloading data from UCSC_
