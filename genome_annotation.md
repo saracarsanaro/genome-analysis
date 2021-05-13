@@ -68,8 +68,8 @@ The [Sanger Protozoan Genomes Projects](https://www.sanger.ac.uk/resources/downl
 **Arabidopsis thaliana** is the most extensively studied multicellular plant. Databases include [TAIR](https://www.arabidopsis.org/) and the more general [PlantsDB](http://pgsb.helmholtz-muenchen.de/plant/plantsdb.jsp). [IRGSP](https://rgp.dna.affrc.go.jp/IRGSP/) is the database for **Oryza sativa** (rice) and [MaizeGDB](https://www.maizegdb.org/) for **Zea mays** (corn). **Dictyostelium discoideum**, a migrating slime mold, is the closest unicellular organism to Metazoans, and can be accessed via [dictyBase](http://dictybase.org/)
 
 ### Metazoan Genomes
-**Caenorhabditis elegans** oh my sweet friend the roundworm. you still haunt me in my dreams sometimes.
+**Caenorhabditis elegans** is a roundworm model system. RNAi came from the study of c. elegans, and they are used to examine the timing of developmental events. [Helminth](http://helminth.net/HN_frontpage.cgi) and [WormBase](https://wormbase.org//#012-34-5) are good resources for c. elegans. 
 
-**Drosophila melanogaster** the good old fly buzz buzz
+**Drosophila melanogaster** has been a model system used to study developmental patterns. 30% of d. melanogaster genes have a worm ortholog and 20% have a yeast ortholog. These candidate genes are believed to be necessary for eukaryotic life. [FlyBase](http://flybase.org/) is a good fly genomics resource. 
 
-**Mouse**, **Chimpanzee**, also Ensembl, UCSC, and IGV are options for higher organisms. 
+For higher organisms, Ensembl, UCSC, and IGV are good options. **Mouse**, **Chimpanzee** 
