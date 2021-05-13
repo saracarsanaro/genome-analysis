@@ -8,7 +8,7 @@ A [SAM](https://samtools.github.io/hts-specs/SAMv1.pdf) file is produced by an a
 ### CIGAR String
 
 ### BAM
-_a binary equivalent of a SAM file_
+_the binary equivalent of a SAM file_
 
 
 
