@@ -1,4 +1,11 @@
 ## NGS Sequencing and Analysis: DNA
+### Genome Sequence Assembly
+
+### Variant Calling
+
+### Galaxy (move here)
+
+### BEDtools and SAMtools
 
 ### SNPs
 A polymorphism involves one of two or more variants of a particular DNA sequence, with some definitions requiring the least common allele to have a frequency of about 1% or greater. A SNP is a substitution of a single nucleotide at a specific position in the genome. 
@@ -14,9 +21,5 @@ Copy number variation and other structural variations have been identified in hu
 
 The [Database of Genomic Variants](http://dgv.tcag.ca/dgv/app/home) has a DGV Structural Variants track to visualize CNVs, which is also found on UCSC. Other CNV databases include [DECIPHER](https://www.deciphergenomics.org/) - the DatabasE of Chromosomal Imbalance and Phenotype in Humans, [Variation Viewer](https://www.ncbi.nlm.nih.gov/variation/view/) - exon pattern track and dbVar ClinVar Large Variations track, [gnomAD SVs](https://gnomad.broadinstitute.org/region/1-55505221-55530525?dataset=gnomad_sv_r2_1) - visualize structural variants in the population, and NCBI's [dbVAR](https://www.ncbi.nlm.nih.gov/dbvar/). 
 
-### BEDtools and SAMtools
 
-### Genome Sequence Assembly
-
-### Variant Calling
 
