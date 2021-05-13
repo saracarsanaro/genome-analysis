@@ -1,7 +1,5 @@
 ## NGS Sequencing and Analysis: RNA and Beyond
 
-### ChIP-seq
-
 ### RNA-seq
 RNA-seq is the term for massively parallel cDNA sequencing. The benefits of RNA-seq include defining transcription start sites, revealing small noncoding RNAs and long noncoding RNAs, identifying alternative splice products and splice sites, and quantitatively estimating transcript levels.
 
@@ -13,37 +11,6 @@ There are also de novo RNA-seq analysis tools which are useful in organisms that
 
 An example RNA-seq analysis might be: *FastQC* to check data quality -> *Trimmomatic* to trim reads -> *TopHat* to map reads to reference -> *Cufflinks* to assemble reads into transcripts -> *Cuffmerge* to merge multiple datasets with reference annotation -> *Cuffdiff* to perform differential expression analysis.
 
+### ChIP-seq
+
 ### Single-Cell RNA-seq
-
-## Model Organisms
-### Yeast
-**Saccharomyces cerevisiae**
-
-**Fission Yeast**, **Aspergillus**, **Candida**, and **Fungi** data-mining interface [FungiDB]()
-
-### Non-Metazoan
-**Giardia**, **Trypanosomes**, **Leishmania**, and general **Protozoan** [genome project]()
-
-**Plasmodium**, **Tetrahymena**, **Toxoplasma gondii**
-
-**Thalassiosira pseudonana** and **Phytophthora**
-
-### Plants
-**Phytophthora**
-
-**Dictyostelium discoideum**
-
-### Metazoan Genomes
-**Caenorhabditis elegans** oh my sweet friend the roundworm. you still haunt me in my dreams sometimes.
-
-**Drosophila melanogaster** the good old fly buzz buzz
-
-**Mouse**, **Chimpanzee**, also Ensembl, UCSC, and IGV are options for higher organisms. 
-
-### Eukaryotic Features
-
-**Repeats**
-
-**Aneuploidy**, **Inversions**, **Chromosome number and synteny**
-
-**Sequence tagged sites**
