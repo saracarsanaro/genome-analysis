@@ -6,6 +6,7 @@
 ### Galaxy (move here)
 
 ### BEDtools and SAMtools
+[bedtools](https://bedtools.readthedocs.io/en/latest/) is described as a swiss army knife of tools for genomic analyses. bedtools allows one to intersect, merge, count, complement, and shuffle genomic intervals from multiple files in widely-used genomic file formats such as BAM, BED, GFF/GTF, VCF. 
 
 ### SNPs
 A polymorphism involves one of two or more variants of a particular DNA sequence, with some definitions requiring the least common allele to have a frequency of about 1% or greater. A SNP is a substitution of a single nucleotide at a specific position in the genome. 
