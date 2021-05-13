@@ -64,4 +64,6 @@ _curated database of genomic variation and its relationship to human health_
 ### ENCODE
 _a catalog functional elements in the human genome_
 
-this is encode
+The Encyclopedia of DNA Elements ([ENCODE](https://www.encodeproject.org/)) Project is a catalog functional elements in the human genome. UCSC has many ENCODE tracks, which are distinguishable by the ENCODE symbol. ENCODE tracks include **_Transcription_**: transcription levels assayed by RNA-seq on 9 cell lines, **_Layered H3K4Me1_**:  H3K4Me1 Mark (Often Found Near _Regulatory Elements_) on 7 cell lines; **_Layered H3K4Me3_**: H3K4Me3 Mark (Often Found Near _Promoters_) on 7 cell lines ; **_DNase Clusters_**: H3K27Ac Mark (Often Found Near _Regulatory Elements_) on 7 cell lines; **_DNase Clusters_**: DNase I Hypersensitivity Peak Clusters (95 cell types); **_DNase Signal_**:  DNase I Hypersensitivity Signal Colored by Similarity; **_DNase HS_**: DNase I Hypersensitivity in 95 cell types; and **_BU ORChID_**: shows DNA cleavage sites.
+
+There is also a [Mouse ENCODE](https://www.nature.com/articles/nature13992) project, with the goal of applying comparative genomics to the human ENCODE project.
