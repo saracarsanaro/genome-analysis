@@ -1,43 +1,15 @@
 # Gene Annotation and Structure
 ## Eukaryotic 
 ### De Novo versus Expression Based Prediction
-Expression
-- align cDNA and protein to genomic sequences -> predict the coding region of gene
-- primary limitation: lack of cDNA or EST data in sample (genomic data)
+**Expression** based prediction aligns cDNA and protein to genomic sequences to predict the coding region of gene. The primary limitation is lack of cDNA or EST data in a sample (genomic data). **De Novo** based prediction is used when expression-based fails. It relies on content or signal sensors (or both). The primary limitation is false positives. Gene predictors are good with coding regions, but usually struggle with 5' and 3' UTRs. RNA-seq has uncovered many new transcripts, some which different in UTR regions only.
 
-De Novo
-- used when expression-based fails
-- primary limitation: false positives
-- relies on content sensors or signal sensors
+Some **Expression Based Prediction** methods include: [Splign](https://www.ncbi.nlm.nih.gov/sutils/splign/splign.cgi?textpage=online&level=form): aligns cDNA to genomic DNA;[genomic BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&BLAST_SPEC=MicrobialGenomes): aligns DNA to NCBI genomic sequences, RefSEq, and EST sequences; and [BLAT](http://genome.ucsc.edu/cgi-bin/hgBlat?command=start): aligns cDNA to genomic DNA. Some **De Novo Gene Prediction** methods include: [GENESCAN](http://hollywood.mit.edu/GENSCAN.html): predicts exons, CDS, start, stop, splice donor and acceptor sites, polyA signal, and promoter; [HMMGene](http://www.cbs.dtu.dk/services/HMMgene/): uses Hidden Markov Model to predict exons, CDS, start, stop, splice donor and acceptor sites; [GGENESH](http://www.softberry.com/berry.phtml?topic=fgenesh&group=programs&subgroup=gfind); and [Augustus](http://bioinf.uni-greifswald.de/augustus/).
 
-### Expression Based Prediction
-- [Splign](https://www.ncbi.nlm.nih.gov/sutils/splign/splign.cgi?textpage=online&level=form): aligns cDNA to genomic DNA
-- [genomic BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&BLAST_SPEC=MicrobialGenomes): align DNA to NCBI genomic sequences, RefSEq, and EST sequences
-- [BLAT](http://genome.ucsc.edu/cgi-bin/hgBlat?command=start): align cDNA to genomic DNA
-
-### De Novo Gene Prediction
-- [GENESCAN](http://hollywood.mit.edu/GENSCAN.html): predicts exons, CDS, start, stop, splice donor and acceptor sites, polyA signal, and promoter
-- [HMMGene](http://www.cbs.dtu.dk/services/HMMgene/): uses Hidden Markov Model to predict exons, CDS, start, stop, splice donor and acceptor sites
-- [GGENESH](http://www.softberry.com/berry.phtml?topic=fgenesh&group=programs&subgroup=gfind)
-- [Augustus](http://bioinf.uni-greifswald.de/augustus/)
-
-### Content Sensors
-- prediction algorithms that depend on features inherent to the coding sequence
-  - third base (nucleotide) composition is used in bacteria
-  - hexamer (codon bias and dicodon combinations) frequency is the most reliable content sensor
-
-### Signal Sensors
-- clues that programs use to find genes based on a particular sequence that is associated with a gene
-  - promoter, splice site, poly(A) signal
-- position-specific scoring matrix (PSSM) can give more weigh to more conserved positions
-
-### Gene Structure
-- mRNA is processed after transcription - most notably via splicing
-  - the splicing process is independent of CDS location
-- gene predictors are good with coding regions, struggle with 5' and 3' UTRs
-  - RNA-seq has uncovered many new transcripts, some which different in UTR regions only
+**Content Sensors** are prediction algorithms that depend on features inherent to the coding sequence. For example, the third base (nucleotide) composition is often used in bacteria. Hexamer (codon bias and dicodon combinations) frequency is the most reliable content sensor. **Signal Sensors** are clues that programs use to find genes based on a particular sequence that is associated with a gene. Some examples include a promoter, splice site, or poly(A) signal. A position-specific scoring matrix (PSSM) can give more weigh to more conserved positions.
 
 ### Eukaryotic Features
+
+mRNA is processed after transcription, most notably via splicing. The splicing process is independent of CDS location.
 
 Genomic regions with 50% GC content or more tend to have high **Gene Density**. The overall CG content of the human genome is 41%, however some regions differ severely from this average. 
 
