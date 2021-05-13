@@ -38,14 +38,9 @@ mRNA is often **polycistronic**, with multiple coding regions in one piece of mR
 ### Bacterial Promoters
 Two important elements of bacterial promoters are the sigma factor and UP element. The **Sigma (σ) Factor** is the subunit of RNA polymerase that binds the promoter. The sigma factor binding area sequences are at -10 and -35 (relative to the TSS, not the start codon). Usually σ70 is used, in heat shock conditions σ32 is used. The **UP element** is alpha-subunit binding region, and AT-rich region near -40 to -60 that is found in strong promoters.  
 
-**Bacterial Promoter Prediction Methods** include comparative genomics, identifying unique promoter sequences, and incorporating microarray and RNA-seq data.
-- comparative genomics: compare intergenic regions of related species
-  - appropriate evolutionary distance is important - too closely related species will lead to false positives, too far apart only well-conserved promoters are detected
-- identifying unique promoter sequences: identify consensus sequences in the intergenic regions
-  - pros: good at finding promoters similar to those in the training set
-  - cons: false positives, may miss unusual promoters
-- incorporating microarray and RNA-seq data
-  - identify co-expressed genes that may share common regulators 
+**Bacterial Promoter Prediction Methods** include comparative genomics, identifying unique promoter sequences, and incorporating microarray and RNA-seq data. _Comparative genomics_: compares intergenic regions of related species. The appropriate evolutionary distance is important - too closely related species will lead to false positives, too far apart only well-conserved promoters are detected. _Identifying unique promoter sequences_: work by identifying consensus sequences in the intergenic regions. The pros: good at finding promoters similar to those in the training set; the cons: false positives, may miss unusual promoters. 
+_Incorporating microarray and RNA-seq data_: to identify co-expressed genes that may share common regulators. 
+
 The [CTSP tool](http://cstp.molgen.mpg.de/) and [BioProspector](http://ai.stanford.edu/~xsliu/BioProspector/) are promoter predictors that incorporate microarray and RNA-seq data. Other **Bacterial Promoter Predictors** include [BPROM](http://www.softberry.com/berry.phtml?topic=bprom&group=programs&subgroup=gfindb) to identify σ70 promoters, and the [Neural Network Promoter Prediction](https://www.fruitfly.org/seq_tools/promoter.html) tool. 
 
 ### Prokaryotic Resources
