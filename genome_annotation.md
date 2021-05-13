@@ -58,7 +58,7 @@ Some E. coli resources include [EcoCyc](https://ecocyc.org/); [Regulon](http://r
 
 **Gene Duplication** occurs often in eukaryotes, with 4 broad fates after gene duplication: both copies remain w/ little mutation providing extra source for transcription/gene expression; one copy is deleted or permanently damaged; one copy accumulates mutations & becomes a pseudogene; and paralogous - one or both copies evolve to have different functions. The deletion fate is most common. The [Yeast Gene Order Browser](http://ygob.ucd.ie/) is a tool for visualising the syntenic context of any gene from several yeast genomes.
 
-**Fission Yeast**, **Aspergillus**, **Candida**, and **Fungi** data-mining interface [FungiDB]()
+**Fission Yeast**, **Aspergillus**, **Candida**, and **Fungi** data-mining interface [FungiDB]() and [EnsemblFungi](http://fungi.ensembl.org/index.html).
 
 ### Non-Metazoan
 **Giardia**, **Trypanosomes**, **Leishmania**, and general **Protozoan** [genome project]()
