@@ -29,39 +29,16 @@ Approximately 10% of the human genome consists of **Repeats**. Repeat DNA likely
 
 ## Prokaryotic
 ### Gene Structure
-- mRNA is often **polycistronic**: multiple coding regions in one piece of mRNA
-- an **operon** is a cluster of genes that are controlled by the same promoter
-- a **transcription unit** denotes any segment of DNA that codes for an RNA molecule
-  - an operon can encompass multiple transcriptional units
-- _transcription_ start site versus _translation_ start site is important to consider
-
-### GC Content
-- GC content tends to be higher in genes
-- organisms can vary significantly in base composition, largely determined by codon usage (many amino acids are coded by multiple codons, some organisms prefer some codons over others)
+mRNA is often **polycistronic**, with multiple coding regions in one piece of mRNA. An **operon** is a cluster of genes that are controlled by the same promoter, while a **transcription unit** denotes any segment of DNA that codes for an RNA molecule. An operon can encompass multiple transcriptional units.
+**GC content** tends to be higher in genes. Organisms can vary significantly in base composition, largely determined by codon usage (many amino acids are coded by multiple codons, some organisms prefer some codons over others).
 
 ### Gene Prediction
-- **open reading frame** (ORF) finders were originally used since prokaryotes generally don't have introns
-- extension of OFR finding to predict the most likely CDS region, accuracy can be enhanced with comparative genomics like BLAST
-- gene predictors are good at finding CDS but not great at finding mRNA sequences (including non-coding DNA)
-  -  RNA-seq data can provide information on transcription start and stop sites, helping to complete gene annotations
-
-### Prokaryotic Gene Prediction Algorithms
-- [OFR finder](https://www.ncbi.nlm.nih.gov/orffinder/): identifies all ORFs, usually the longest ORFs that don't overlap are real genes
-- [FGENESB](http://www.softberry.com/berry.phtml?topic=fgenesb&group=programs&subgroup=gfindb): includes a program for automatic GenBank annotation, finds coding regions, promoters, operons, translation and termination sites
-- [GLIMMER](http://ccb.jhu.edu/software/glimmer/index.shtml): uses interpolated Markov models to identify the coding regions and distinguish them from noncoding DNA
--   [release notes](https://ccb.jhu.edu/software/glimmer/glim302notes.pdf)
-- [Prodigal](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-11-119): for CDS prediction
-- [GeneMark](http://exon.gatech.edu/GeneMark/gmhmmp.cgi)
-- [Easy Gene](http://www.cbs.dtu.dk/services/EasyGene/)
+**Open Reading Frame** (ORF) finders are originally used since prokaryotes generally don't have introns. An extension of OFR finding then predicts the most likely CDS region, and accuracy can be enhanced with comparative genomics like BLAST. Gene predictors are good at finding CDS but not great at finding mRNA sequences (including non-coding DNA). RNA-seq data can provide information on transcription start and stop sites, helping to complete gene annotations. Some **Prokaryotic Gene Prediction Algorithms** include [OFR finder](https://www.ncbi.nlm.nih.gov/orffinder/): identifies all ORFs, usually the longest ORFs that don't overlap are real genes; [FGENESB](http://www.softberry.com/berry.phtml?topic=fgenesb&group=programs&subgroup=gfindb): includes a program for automatic GenBank annotation, finds coding regions, promoters, operons, translation and termination sites; [GLIMMER](http://ccb.jhu.edu/software/glimmer/index.shtml): uses interpolated Markov models to identify the coding regions and distinguish them from noncoding DNA - see [GLIMMER release notes](https://ccb.jhu.edu/software/glimmer/glim302notes.pdf); [Prodigal](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-11-119): for CDS prediction; [GeneMark](http://exon.gatech.edu/GeneMark/gmhmmp.cgi); and [Easy Gene](http://www.cbs.dtu.dk/services/EasyGene/).
 
 ### Bacterial Promoters
-- **Sigma (σ) Factor**: subunit of RNA polymerase that binds the promoter
-  - binding area: sequences at -10 and -35 (relative to the TSS, not the start codon)
-  - usually σ70 is used, in heat shock conditions σ32 is used
-- **UP element**: alpha-subunit binding region, AT-rich region near -40 to -60
-  - found in strong promoters 
+Two important elements of bacterial promoters are the sigma factor and UP element. The **Sigma (σ) Factor** is the subunit of RNA polymerase that binds the promoter. The sigma factor binding area sequences are at -10 and -35 (relative to the TSS, not the start codon). Usually σ70 is used, in heat shock conditions σ32 is used. The **UP element** is alpha-subunit binding region, and AT-rich region near -40 to -60 that is found in strong promoters.  
 
-### Bacterial Promoter Prediction Methods
+**Bacterial Promoter Prediction Methods** include comparative genomics, identifying unique promoter sequences, and incorporating microarray and RNA-seq data.
 - comparative genomics: compare intergenic regions of related species
   - appropriate evolutionary distance is important - too closely related species will lead to false positives, too far apart only well-conserved promoters are detected
 - identifying unique promoter sequences: identify consensus sequences in the intergenic regions
@@ -75,23 +52,15 @@ Approximately 10% of the human genome consists of **Repeats**. Repeat DNA likely
 - [BPROM](http://www.softberry.com/berry.phtml?topic=bprom&group=programs&subgroup=gfindb): to identify σ70 promoters
 - [Neural Network Promoter Prediction](https://www.fruitfly.org/seq_tools/promoter.html)
 
-### E. coli Resources
-- [EcoCyc](https://ecocyc.org/)
-- [Regulon](http://regulondb.ccg.unam.mx/)
-- [E. coli Genome Project](https://www.genome.wisc.edu/)
-- [Porteco](http://porteco.org/)
-
-### Some Useful Bacterial and Archaeal Databases and Programs
-- [seqinr](https://a-little-book-of-r-for-bioinformatics.readthedocs.io/en/latest/src/chapter1.html): R package, allows simple analysis of FASTA-formatted sequences (base count, sequence length, GC content, and more)
-- [PATRIC](https://patricbrc.org/): database of over 10,000 microbial genomes
-- [HaloWeb](https://halo.umbc.edu/): 52 haloarchaeal species (archaeal species that grow in high salt concentrations)
-- [UCSC Archaeal Genome Browser](http://archaea.ucsc.edu/)
-- [Greengenes](https://greengenes.lbl.gov/Download/): repository for 16S rRNA sequences and tools
+### Prokaryotic Resources
+Some E. coli resources include [EcoCyc](https://ecocyc.org/); [Regulon](http://regulondb.ccg.unam.mx/); [E. coli Genome Project](https://www.genome.wisc.edu/); and [Porteco](http://porteco.org/). Other bacterial and archaeal databases and programs include [seqinr](https://a-little-book-of-r-for-bioinformatics.readthedocs.io/en/latest/src/chapter1.html) an R package that allows simple analysis of FASTA-formatted sequences (base count, sequence length, GC content, and more); [PATRIC](https://patricbrc.org/) a database of over 10,000 microbial genomes; [HaloWeb](https://halo.umbc.edu/) a database of 52 haloarchaeal species (archaeal species that grow in high salt concentrations); the [UCSC Archaeal Genome Browser](http://archaea.ucsc.edu/); and [Greengenes](https://greengenes.lbl.gov/Download/) a repository for 16S rRNA sequences and tools.
 
 
 ## Model Organisms
 ### Yeast
-**Saccharomyces cerevisiae**
+**Saccharomyces cerevisiae** is a well-studied eukaryote that grows like a prokaryote. Only 4% of the genes have introns and there is very little intergenic space. ORF finding works well to identify genes in s. cerevisiae. [NCBI Genome Data Viewer](https://www.ncbi.nlm.nih.gov/genome/gdv/?org=saccharomyces-cerevisiae) and [UCSC]() are good general resources for s. cerevisiae. [SDG](http://genome.ucsc.edu/cgi-bin/hgGateway?hgsid=155744526&clade=other&org=0&db=0) is an extensive resource for budding yeast genomes, including genome browsing, info on ORFs and protein domains, 3D structures, BLAST, ontology terms, and gene expression data. [ScerTF](http://stormo.wustl.edu/ScerTF) is a database of s. cerevisiae transcription factors. 
+
+**Gene Duplication** occurs often in eukaryotes, with 4 broad fates after gene duplication: both copies remain w/ little mutation providing extra source for transcription/gene expression; one copy is deleted or permanently damaged; one copy accumulates mutations & becomes a pseudogene; and paralogous - one or both copies evolve to have different functions. The deletion fate is most common. The [Yeast Gene Order Browser](http://ygob.ucd.ie/) is a tool for visualising the syntenic context of any gene from several yeast genomes.
 
 **Fission Yeast**, **Aspergillus**, **Candida**, and **Fungi** data-mining interface [FungiDB]()
 
