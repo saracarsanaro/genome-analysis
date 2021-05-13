@@ -6,7 +6,7 @@ _contains information about how sequences align to a reference_
 A [SAM](https://samtools.github.io/hts-specs/SAMv1.pdf) file is produced by an alignment program like HISAT or BWA. SAM files are tab delimited and include header lines which begin with the @ symbol. Each line represents a single alignment event and contains 11 mandatory fields (see below).
 
 ![SAM format](/files/SAM.png) | Each line represents a single alignment event and contains 11 mandatory fields. 
-<img src="/files/SAM.png" width="200" height="150">
+<img src="/files/SAM.png" width="400" height="300">
 ### CIGAR String
 
 ### BAM
