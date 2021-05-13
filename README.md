@@ -16,7 +16,7 @@ _Sara Carsanaro's Final Portfolio for John Hopkins Spring 2021 Course AS.410.635
 - RNA-seq 
 - single-cell RNA-seq
 
-## [NGS tools and technologies](./NGS_tools.md)
+## [NGS Tools and Technologies](./NGS_tools.md)
 - Galaxy
 - BEDtools and SAMtools
 - UMAP and PCA
