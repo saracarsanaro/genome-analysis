@@ -60,9 +60,9 @@ Some E. coli resources include [EcoCyc](https://ecocyc.org/); [Regulon](http://r
 ### Non-Metazoan
 The [Sanger Protozoan Genomes Projects](https://www.sanger.ac.uk/resources/downloads/protozoa/) provides access to protozoan genomes sequenced at the Wellcome Sanger Institute. Other more specific databases include [Giardia DB](https://giardiadb.org/giardiadb/app), Trypanosomes & Leishmania via [GeneDB](https://www.genedb.org/), and [Trypanocyc](http://vm-trypanocyc.toulouse.inra.fr/).
 
-**Plasmodium**, **Tetrahymena**, **Toxoplasma gondii**
+**Plasmodium** can be accessed via [PlasmoDB](https://plasmodb.org/plasmo/app), **Tetrahymena** can be accessed via [Tetrahymena DB](http://ciliate.org/index.php/home/welcome) and are known for their abundance of telomeres, and **Toxoplasma gondii** can be accessed via [ToxoDB](https://toxodb.org/toxo/app).
 
-**Thalassiosira pseudonana** and **Phytophthora**
+**Thalassiosira pseudonana** can be accessed via [Thalassiosira at JGI](https://mycocosm.jgi.doe.gov/Thaps3/Thaps3.home.html) and is believed to have acquired a plastid by engulfing a eukaryotic alga. **Phytophthora** can be accessed via [MycoCosm](https://mycocosm.jgi.doe.gov/Phyra1_1/Phyra1_1.home.html).
 
 ### Plants
 **Phytophthora**
