@@ -17,8 +17,7 @@ _designed to store information on genomic intervals_
 
 A simple (minimum) BED file has 3 columns - chromosome name, start position of entity, end position of entity - separated by tabs. There are longer BED formats (BED6, BED12). See [BedTools documentation](https://bedtools.readthedocs.io/en/latest/content/general-usage.html) for more information.
 
-0-based versus 1-based
-![0-based versus 1-based](/files/0vs1based.png)
+<img src="/files/0vs1based.png" width="450" height="330">
 
 ### WIG
 _designed to store continuous information at each genomic location_
