@@ -3,12 +3,11 @@ _Sara Carsanaro's Final Portfolio for John Hopkins Spring 2021 Course AS.410.635
 
 ## [Genomic Databases](./genomic_databases.md)
 - databases including Ensembl, Biomart, UCSC Table Browser, and ENCODE
-- web applications including UCSC and Galaxy (move do DNA seq analysis)
+- web applications including UCSC
 - desktop applications including IGV
 
 ## [NGS Sequencing and Analysis: DNA](./NGS_sequencing_analysis.md)
 - SNVs and CNVs
-- BEDtools and SAMtools
 - de novo and reference based sequence assembly
 - variant calling
 
@@ -16,6 +15,12 @@ _Sara Carsanaro's Final Portfolio for John Hopkins Spring 2021 Course AS.410.635
 - ChIP-seq
 - RNA-seq 
 - single-cell RNA-seq
+
+## [NGS tools and technologies](./NGS_tools.md)
+- Galaxy
+- BEDtools and SAMtools
+- UMAP and PCA
+- common workflow language
 
 ## [Genomic File Formats](./file_formats.md)
 - various file formats you may encounter working in NGS workflows
