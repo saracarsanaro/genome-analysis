@@ -74,4 +74,4 @@ The [Sanger Protozoan Genomes Projects](https://www.sanger.ac.uk/resources/downl
 
 **Drosophila melanogaster** has been a model system used to study developmental patterns. 30% of d. melanogaster genes have a worm ortholog and 20% have a yeast ortholog. These candidate genes are believed to be necessary for eukaryotic life. [FlyBase](http://flybase.org/) is a good fly genomics resource. 
 
-For higher organisms, Ensembl, UCSC, and IGV are good options. **Mouse**, **Chimpanzee** 
+For higher organisms, Ensembl, UCSC, and IGV are good options. There is also a **Mouse** database, [Mouse Genome Informatics](http://www.informatics.jax.org/), and a **Chimpanzee** database, [Chimpanzee Genome Project](https://www.broadinstitute.org/chimpanzee/chimpanzee-genome-project).
