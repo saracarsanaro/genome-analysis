@@ -11,7 +11,8 @@ Galaxy [bioinformatics tutorials](https://training.galaxyproject.org/training-ma
 - [metagenomics analyses](https://galaxyproject.github.io/training-material/topics/metagenomics/).
 
 ### Galaxy Workflows
-- [Intersect with SNPs and Exons](/files/galaxy_cow_workflow.md)
+- [intersect with SNPs and exons](/files/galaxy_cow_workflow.md)
+- [CHiP-seq analysis](/files/mouse_ChIP.md)
 
 ### BEDtools and SAMtools
 [BEDtools](https://bedtools.readthedocs.io/en/latest/) is described as a swiss army knife of tools for genomic analyses. The [BEDtools suite](https://bedtools.readthedocs.io/en/latest/content/bedtools-suite.html) allows one to [intersect](https://bedtools.readthedocs.io/en/latest/content/tools/intersect.html), [subtract](https://bedtools.readthedocs.io/en/latest/content/tools/subtract.html), [merge](https://bedtools.readthedocs.io/en/latest/content/tools/merge.html), count, complement, and shuffle genomic intervals from multiple files in widely-used genomic file formats such as BAM, BED, GFF/GTF, VCF. 
