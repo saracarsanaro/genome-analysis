@@ -21,5 +21,5 @@ Two copies of each of four proteins make up a **Histone** octomer. Histones asso
 
 At a high level, ChIP-seq consists of precipitating protein-DNA complexes, sequencing the DNA, aligning the reads where a pileup of reads is interpreted as associated with the histone, and using negative controls to remove background binding. The three types of **contol experiements** are _DNA input control, IgG antibody control, and the use of untagged strains_. 
 
-ChIP-seq data analsyis: FASTQ alignment. Peak calling. Differential Peak calling. Some common peak calling algorithms are. 
+ChIP-seq data analsyis: FASTQ alignment. Peak calling. Differential Peak calling. Some common peak calling algorithms are MACS2 and MORE. 
 ### Single-Cell RNA-seq
