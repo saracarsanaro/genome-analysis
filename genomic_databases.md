@@ -20,11 +20,15 @@ _download data sets from Ensembl_
 
 The [Bioconductor Project](https://www.bioconductor.org/) is a collection of R packages created to mine data from genomic datasources. [BiomaRt](https://bioconductor.org/packages/release/bioc/vignettes/biomaRt/inst/doc/biomaRt.html) is a bioconductor package to access data from BioMart. The [user guide](https://bioconductor.org/packages/release/bioc/vignettes/biomaRt/inst/doc/biomaRt.html) is a useful resource for biomaRt.
 
-```
-- getBM command problems
--   specify attributes, filters, values, and mart 
--   to do x
--   to do y
+```R
+# for a set of mim_morbid_accession, return Entrez gene ID, HGNC symbol, and Ensembl Gene ID
+omimIDs = c(604802, 143100, 603218, 606438, 607136)
+getBM(attributes=c('entrezgene_id','hgnc_symbol', 'ensembl_gene_id'), filters='mim_morbid_accession', values=omimIDs,  mart=ensembl)
+
+# for a set of mim_morbid_accession, return HGNC symbol, Ensembl Gene ID, and Ensembl Transcript ID
+omimIDs = c(604802, 143100, 603218, 606438, 607136)
+getBM(attributes=c('hgnc_symbol','ensembl_gene_id', 'ensembl_transcript_id'), filters='mim_morbid_accession', values=omimIDs,  mart=ensembl)
+
 ```
 
 ### UCSC
