@@ -40,15 +40,13 @@ Approximately 10% of the human genome consists of **Repeats**. Repeat DNA likely
 
 **Sequence tagged sites** are short regions of a very unique DNA sequence. They are suggested locations for a PCR primer, as there shouldn't be a similar sequence elsewhere in the genome. Ideally these sites shouldn't have any SNPs, and every individual in the population should have that sequence. An STS also found in a different species can be useful for cross-genome comparisons.
 
-### Functional RNAs and Ultraconserved Elements
+### Noncoding RNAs and Functional RNAs
 Noncoding RNAs (ncRNA) are any RNA not translated into a protein, and include tRNA, rRNA, lncRNA, small nucleolar RNAs(snoRNA), small nuclear RNAs(snRNA), microRNAs(miRNA), short interfering RNAs(siRNA), and guide RNAs(gRNA). The [Rfam](http://rfam.xfam.org/) database is a repository for ncRNA families. **Functional RNA** (fRNA) is a broader class than ncRNA, and includes functional secondary structures in mRNA, riboswitches and the SECIS element. [PPfold](https://pubmed.ncbi.nlm.nih.gov/22877864/) is an algorithm for RNA secondary structure prediction.
 
-There exist many algorithms and databases for miRNA and their targets. The [miRanda]() algorithm is specialized to find miRNA and mRNAs that are miRNA targets. [PicTar]() and [DIANA-TarBase v.8]() are algorithms. [TargetScan](), [miRNEST 2.0](), [PolymiRTS](), [miRDB](), and [miRBase]() are databases. 
-
-lncRNA [NONCODE](). 
+There exist many algorithms and databases for miRNA and their targets. The [miRanda](http://cbio.mskcc.org/miRNA2003/miranda.html) algorithm is specialized to find miRNA and mRNAs that are miRNA targets. [PicTar](https://pictar.mdc-berlin.de/) and [DIANA-TarBase v.8](http://carolina.imis.athena-innovation.gr/diana_tools/web/index.php?r=tarbasev8%2Findex) are other miRNA-target algorithms. miRNA databases include [TargetScan](http://www.targetscan.org/), [miRNEST 2.0](http://rhesus.amu.edu.pl/mirnest/copy/) holds plant and animal miRNAs, [PolymiRTS](https://compbio.uthsc.edu/miRSNP/) holds SNPs in miRNA target sites, [miRDB](http://mirdb.org/), and [miRBase](http://www.mirbase.org/), a repository for known miRNA sequences. [NONCODE](http://www.noncode.org/) is a database for lncRNA transcripts from 16 species. 
 
 ### Conserved Noncoding Elements and Ultraconserved Elements
 Ultraconserved Elements are highly conserved regions of organismal genomes shared among evolutionary distant taxa. In vertebrates, UCEs are more constrained than exons, and UCEs are rarely deceted outside of chordates. 
 
-Some Conserved Noncoding Element databases include [ANCORA](), [cneViewer](), [UCNEBase]() is very comprehensive and catalogs Ultraconserved Noncodng Elements, and [CEGA](https://cega.ezlab.org/).
+Some Conserved Noncoding Element databases include [ANCORA](http://ancora.genereg.net/), a browser for 11 species with conservation tracks, [cneViewer](http://bioinformatics.bc.edu/chuanglab/cneViewer/) displays conserved regions between human and zebrafish, [UCNEBase](https://ccg.epfl.ch//UCNEbase/) is very comprehensive and catalogs Ultraconserved Noncodng Elements across 18 species, and [CEGA](https://cega.ezlab.org/).
 
