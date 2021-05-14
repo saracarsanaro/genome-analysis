@@ -36,7 +36,19 @@ ggplot(data = XY_values_tsne_as_dataframe, aes(x=X_values_tsne, y = Y_values_tsn
 ### UMAP
 A Uniform Manifold Approximation and Projection (UMAP) is a dimensionality reduction technique based in Riemannian geometry and algebraic topology. It constructs a fuzzy topological plot of data and optimizes low dimensional representation. It is useful for cluster visualization, particularly with RNA-seq. 
 ```R
-[UMAP example R code](./files/UMAP.md)
+install.packages("umap")
+library("umap")
+training_data ← iris[,1:4] #prepare a training dataset
+real_data ← training_data + matrix(rnorm(nrow(training_data)*4,0,0.1), ncol=4) #real data (training dataset with some fluctuations)
+view(real_data)
+training_data_umap_results ← umap(training_data) #umap on training data
+real_data_umap_results ← predict(training_data_umap_results, real_data) #predict the clustering of real_data based on training data's umap results
+#ggplot for visualization
+X_values_umap ← real_data_umap_results[,1]
+Y_values_umap ← real_data_umap_results[,2]
+XY_values_umap_as_dataframe ← data.frame(X_values_umap, Y_values_umap)
+library(ggplot2)
+ggplot(data = XY_values_umap_as_dataframe, aes(x=X_values_umap, y=Y_values_umap)) + geom_point()
 ```
 ### PCA
 Principal component analysis (PCA) is the process of computing the principal components and using them to perform a change of basis on the data. PC1 is the most varying axis of data points, PC2 is the second most varying axis of data point that is independent from PC1, etc. 
