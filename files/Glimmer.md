@@ -8,3 +8,6 @@ extract -t halan.fasta halan_results.predict > halan_results.glimmer
 ```
 ### Glimmer Output
 ![output](/files/Glimmer_predict.png)
+
+### FGENESB Output
+![output](/files/FGENESB.png)
