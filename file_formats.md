@@ -36,3 +36,6 @@ _an extention of the FASTA format with sequence quality_
 [FASTQ](https://support.illumina.com/bulletins/2016/04/fastq-files-explained.html) is a format for representing DNA sequences with sequence quality, usually represented in ASCII characters which correspond to a phred score. A FASTQ file contains 4 lines: (1) header line starting with @, (2) DNA sequence line, (3) another header line starting with +, and (4) the quality line. FASTQ is typically used to store the sequence fragments before mapping.
 
 ### VCF
+_format for storing gene sequence variations_
+
+A VCF represents each variant as a line with the chromosomal position, expected reference nucleotide, and sequenced nucleotide, plus other statistics and often the number of reads aligned with the variant. See [VCF Specification](https://samtools.github.io/hts-specs/VCFv4.2.pdf) for more information. 
