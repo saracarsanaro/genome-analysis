@@ -50,5 +50,5 @@ Ultraconserved Elements are highly conserved regions of organismal genomes share
 
 Some Conserved Noncoding Element databases include [ANCORA](http://ancora.genereg.net/), a browser for 11 species with conservation tracks, [cneViewer](http://bioinformatics.bc.edu/chuanglab/cneViewer/) displays conserved regions between human and zebrafish, [UCNEBase](https://ccg.epfl.ch//UCNEbase/) is very comprehensive and catalogs Ultraconserved Noncodng Elements across 18 species, and [CEGA](https://cega.ezlab.org/).
 
-![CNE_UCSC](/files/CNE_UCSC.pdf)
+![CNE_UCSC](/files/CNE_UCSC.png)
 human CNE ID 34477 viewed on UCSC with the conservation track displayed
