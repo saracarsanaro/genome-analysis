@@ -20,9 +20,15 @@ BEDtools and SAMtools are also available via Galaxy.
 
 ### t-SNE
 
+[t-SNE in R](./files/t-SNE.R)
+
 ### UMAP
 
+[UMAP in R](./files/UMAP.R)
+
 ### PCA
+
+[PCA in R](./files/PCA.R)
 
 ### Common Workflow Language
 The [Common Workflow Language](https://www.commonwl.org/v1.2/index.html) (CWL) is a standard for describing computational data-analysis workflows. It is essentially a paradigm for implementing a series of connected command line tools to create reproducible and modular workflows. The set of tools, dependencies, and inputs that make up a CWL workflow are flexible and portable across any platform that supports the CWL standard. See the [CWL User Guide](https://www.commonwl.org/user_guide/) for more information. 
