@@ -8,9 +8,14 @@ Galaxy is an interface designed to analyze genomic data both from publicly avail
 - intersect SNPs with exons
 - CHiP-seq
 ```
-```
-Galaxy [bioinformatics tutorials](https://training.galaxyproject.org/training-material/) for scientists are great to work through. Answer questions like [which exon on chr22 has the most SNPs](https://galaxyproject.org/tutorials/g101/), [which genes are differentially expressed in these RNA-seq datasets](https://usegalaxy.org/u/jeremy/p/galaxy-rna-seq-analysis-exercise), [NGS data quality control](https://www.youtube.com/watch?v=NH18hN9PdC8&ab_channel=UofMMSI), [how to call variants](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/dip/tutorial.html), [Metagenomics](https://galaxyproject.github.io/training-material/topics/metagenomics/).
-```
+
+Galaxy [bioinformatics tutorials](https://training.galaxyproject.org/training-material/) for scientists are great to work through. There are tutorials for:
+- questions like [which exon on chr22 has the most SNPs](https://galaxyproject.org/tutorials/g101/)
+- determining [which genes are differentially expressed in these RNA-seq datasets](https://usegalaxy.org/u/jeremy/p/galaxy-rna-seq-analysis-exercise)
+- performing [NGS data quality control](https://www.youtube.com/watch?v=NH18hN9PdC8&ab_channel=UofMMSI)
+- [variant calling](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/dip/tutorial.html)
+- [metagenomics analyses](https://galaxyproject.github.io/training-material/topics/metagenomics/).
+
 
 ### BEDtools and SAMtools
 [BEDtools](https://bedtools.readthedocs.io/en/latest/) is described as a swiss army knife of tools for genomic analyses. The [BEDtools suite](https://bedtools.readthedocs.io/en/latest/content/bedtools-suite.html) allows one to [intersect](https://bedtools.readthedocs.io/en/latest/content/tools/intersect.html), [subtract](https://bedtools.readthedocs.io/en/latest/content/tools/subtract.html), [merge](https://bedtools.readthedocs.io/en/latest/content/tools/merge.html), count, complement, and shuffle genomic intervals from multiple files in widely-used genomic file formats such as BAM, BED, GFF/GTF, VCF. 
