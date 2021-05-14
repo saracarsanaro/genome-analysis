@@ -10,7 +10,7 @@ Galaxy [bioinformatics tutorials](https://training.galaxyproject.org/training-ma
 - [variant calling](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/dip/tutorial.html)
 - [metagenomics analyses](https://galaxyproject.github.io/training-material/topics/metagenomics/)
 - [de novo transcriptome reconstruction with RNA-Seq](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/de-novo/tutorial.html)
-- 
+
 ### Galaxy Workflows
 - [intersect with SNPs and exons](/files/galaxy_cow_workflow.md)
 - [CHiP-seq analysis](/files/mouse_ChIP.md)
