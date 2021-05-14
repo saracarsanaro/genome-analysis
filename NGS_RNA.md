@@ -22,3 +22,4 @@ At a high level, ChIP-seq consists of precipitating protein-DNA complexes, seque
 
 An example ChIP-seq workflow might be: _FASTQ alignment with Bowtie or BWA_ to align to a reference -> _peak calling with MACS2 or SICER_ to output peaks to a BAM or WIG file. 
 ### Single-Cell RNA-seq
+The goal of **Single-Cell RNA-seq** is to measure transcriptone expression in a cell. High throughput scRNA-seq can be used to sequence many single cells in parallel. The key 
