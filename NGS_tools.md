@@ -19,3 +19,11 @@ Galaxy [bioinformatics tutorials](https://training.galaxyproject.org/training-ma
 [SAMtools](http://www.htslib.org/) is useful for reading, writing, editing, indexing, and viewing SAM, BAM, and CRAM format files. [SAMtools suite](http://www.htslib.org/doc/samtools.html) include [view](http://www.htslib.org/doc/samtools-view.html) to convert file formats, [sort](http://www.htslib.org/doc/samtools-sort.html), and [index](http://www.htslib.org/doc/samtools-index.html) to create a BAM/SAM/CRAM index file.
 
 BEDtools and SAMtools are also available via Galaxy.
+
+### t-SNE
+
+### UMAP
+
+### PCA
+
+## Common Workflow Language
