@@ -4,6 +4,8 @@ _via Entrez Genome database - genomes of 306,892 prokaryotes, 42,119 viruses, an
 
 The [NCBI Genome Data Viewer (GDV)](https://www.ncbi.nlm.nih.gov/genome/gdv/) mostly supports eukaryotic RefSeq genomes, plus other tracks including RNA-seq exon coverage, dbSNP, and more. More information is available on the [help page](https://www.ncbi.nlm.nih.gov/genome/gdv/browser/help/). The [NCBI Variation Viewer](https://www.ncbi.nlm.nih.gov/variation/view/) focuses on the human genome, and is connected to dbSNP, dbVar, and ClinVar. More information can be found via the [help page](https://www.ncbi.nlm.nih.gov/variation/view/help/) and this [video tutorial](https://www.youtube.com/watch?v=rnWZ9MFBwUM&ab_channel=TheNationalLibraryofMedicine). The [NCBI 1000 Genomes Browser](https://www.ncbi.nlm.nih.gov/variation/tools/1000genomes/) is a portal to data from the 10000 genomes project.
 
+### [Variation Viewer for Visualization of Genetic Annotations](/files/VarViewer.md)
+
 ### Ensembl
 _genome browser for chordates and non-chordate model organisms_
 
