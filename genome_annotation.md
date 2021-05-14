@@ -40,9 +40,15 @@ Approximately 10% of the human genome consists of **Repeats**. Repeat DNA likely
 
 **Sequence tagged sites** are short regions of a very unique DNA sequence. They are suggested locations for a PCR primer, as there shouldn't be a similar sequence elsewhere in the genome. Ideally these sites shouldn't have any SNPs, and every individual in the population should have that sequence. An STS also found in a different species can be useful for cross-genome comparisons.
 
-### Functional RNAs
+### Functional RNAs and Ultraconserved Elements
+Noncoding RNAs (ncRNA) are any RNA not translated into a protein, and include tRNA, rRNA, lncRNA, small nucleolar RNAs(snoRNA), small nuclear RNAs(snRNA), microRNAs(miRNA), short interfering RNAs(siRNA), and guide RNAs(gRNA). The [Rfam](http://rfam.xfam.org/) database is a repository for ncRNA families. **Functional RNA** (fRNA) is a broader class than ncRNA, and includes functional secondary structures in mRNA, riboswitches and the SECIS element. [PPfold](https://pubmed.ncbi.nlm.nih.gov/22877864/) is an algorithm for RNA secondary structure prediction.
 
+There exist many algorithms and databases for miRNA and their targets. The [miRanda]() algorithm is specialized to find miRNA and mRNAs that are miRNA targets. [PicTar]() and [DIANA-TarBase v.8]() are algorithms. [TargetScan](), [miRNEST 2.0](), [PolymiRTS](), [miRDB](), and [miRBase]() are databases. 
 
-### Conserved Noncoding Elements
-[ANCORA](), [cneViewer](), [UCNEBase](), and [CEGA]()
+lncRNA [NONCODE](). 
+
+### Conserved Noncoding Elements and Ultraconserved Elements
+Ultraconserved Elements are highly conserved regions of organismal genomes shared among evolutionary distant taxa. In vertebrates, UCEs are more constrained than exons, and UCEs are rarely deceted outside of chordates. 
+
+Some Conserved Noncoding Element databases include [ANCORA](), [cneViewer](), [UCNEBase]() is very comprehensive and catalogs Ultraconserved Noncodng Elements, and [CEGA](https://cega.ezlab.org/).
 
