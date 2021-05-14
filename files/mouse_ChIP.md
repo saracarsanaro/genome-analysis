@@ -1,5 +1,5 @@
 ### IGV Visualization
-![output](/files/MOUSE_ChIP_IGV.png)
+![output](/MOUSE_ChIP_IGV.png)
 
 ### Galaxy Workflow
 1. FASTQ Froomer
