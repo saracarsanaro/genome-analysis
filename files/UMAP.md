@@ -1,3 +1,4 @@
+A Basic Example of a UMAP
 ```install.packages("umap")
 library("umap")
 training_data ← iris[,1:4] #prepare a training dataset
