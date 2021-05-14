@@ -1,4 +1,5 @@
-``` training_data ← iris[,1:4] #prepare a training dataset
+```R
+training_data ← iris[,1:4] #prepare a training dataset
 real_data ← training_data + matrix(rnorm(nrow(training_data)*4,0,0.1), ncol=4) #real data (training dataset with some fluctuations)
 view(real_data)
 #t-SNE#
