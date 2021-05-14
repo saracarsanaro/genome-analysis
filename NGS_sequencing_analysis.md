@@ -12,7 +12,7 @@ Phred Quality Scores were established during the HGP and tell you how confident 
 ### Variant Calling
 
 ### Metagenomics
-Metagenomics is the study of genetic material obtained from environmental samples. Generally, NGS is performed on a sample and the reads are aligned to potential reference genomes to detect matches. Publically available tools for the analysis of metagenomes include [Real-Time Metagenomics](), [Rapid Annotation using Subsystem Technology (RAST)](), [Pipeline Analysis for Next Generation Amplicons (PANGEA)](), [Metagenomics tutorials in Galaxy](https://galaxyproject.github.io/training-material/topics/metagenomics/), and [Metagenome Analyzer (MEGAN)]()
+Metagenomics is the study of genetic material obtained from environmental samples. Generally, NGS is performed on a sample and the reads are aligned to potential reference genomes to detect matches. Publically available tools for the analysis of metagenomes include [Real-Time Metagenomics](http://edwards.sdsu.edu/rtmg/), [Rapid Annotation using Subsystem Technology (RAST)](https://rast.nmpdr.org/), [Pipeline Analysis for Next Generation Amplicons (PANGEA)](https://sourceforge.net/projects/pangea-16s/), [Metagenomics tutorials in Galaxy](https://galaxyproject.github.io/training-material/topics/metagenomics/), and [Metagenome Analyzer (MEGAN)](https://www.wsi.uni-tuebingen.de/lehrstuehle/algorithms-in-bioinformatics/software/megan6/).
 
 ### SNPs
 A polymorphism involves one of two or more variants of a particular DNA sequence, with some definitions requiring the least common allele to have a frequency of about 1% or greater. A SNP is a substitution of a single nucleotide at a specific position in the genome. 
