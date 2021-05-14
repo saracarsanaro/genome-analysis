@@ -70,5 +70,7 @@ Some ENCODE tracks include:
 - **_DNase Signal_**:  DNase I Hypersensitivity Signal Colored by Similarity
 - **_DNase HS_**: DNase I Hypersensitivity in 95 cell types
 - **_BU ORChID_**: shows DNA cleavage sites.
+![HUVEC](/files/TUBB3_HUVEC.png)
+ENCODE data from the HUVEC cell line for the human TUBB3 gene
 
 There is also a [Mouse ENCODE](https://www.nature.com/articles/nature13992) project, with the goal of applying comparative genomics to the human ENCODE project.
