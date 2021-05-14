@@ -33,9 +33,6 @@ _Sara Carsanaro's Final Portfolio for John Hopkins Spring 2021 Course AS.410.635
 ## [Model Organisms](./model_orgs.md)
 - genomic resources for various model organisms
 
-## [Homework and Exams](./files/all_files.md)
-- linked homework and exams from the course
-
 
 
 
