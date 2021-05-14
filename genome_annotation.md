@@ -18,6 +18,7 @@ _Incorporating microarray and RNA-seq data_: to identify co-expressed genes that
 The [CTSP tool](http://cstp.molgen.mpg.de/) and [BioProspector](http://ai.stanford.edu/~xsliu/BioProspector/) are promoter predictors that incorporate microarray and RNA-seq data. Other **Bacterial Promoter Predictors** include [BPROM](http://www.softberry.com/berry.phtml?topic=bprom&group=programs&subgroup=gfindb) to identify σ70 promoters, and the [Neural Network Promoter Prediction](https://www.fruitfly.org/seq_tools/promoter.html) tool. 
 
 ![NNPP](/files/NNPP_output.png)
+
 output from NNPP algorithm on a Lactococcus DNA sequence
 
 ### Prokaryotic Resources
@@ -30,6 +31,7 @@ Some E. coli resources include [EcoCyc](https://ecocyc.org/); [Regulon](http://r
 Some **Expression Based Prediction** methods include: [Splign](https://www.ncbi.nlm.nih.gov/sutils/splign/splign.cgi?textpage=online&level=form): aligns cDNA to genomic DNA; [genomic BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&BLAST_SPEC=MicrobialGenomes): aligns DNA to NCBI genomic sequences, RefSEq, and EST sequences; and [BLAT](http://genome.ucsc.edu/cgi-bin/hgBlat?command=start): aligns cDNA to genomic DNA. Some **De Novo Gene Prediction** methods include: [GENESCAN](http://hollywood.mit.edu/GENSCAN.html): predicts exons, CDS, start, stop, splice donor and acceptor sites, polyA signal, and promoter; [HMMGene](http://www.cbs.dtu.dk/services/HMMgene/): uses Hidden Markov Model to predict exons, CDS, start, stop, splice donor and acceptor sites; [GGENESH](http://www.softberry.com/berry.phtml?topic=fgenesh&group=programs&subgroup=gfind); and [Augustus](http://bioinf.uni-greifswald.de/augustus/).
 
 ![Splign](/files/Splign.png)
+
 output from Splign
 
 **Content Sensors** are prediction algorithms that depend on features inherent to the coding sequence. For example, the third base (nucleotide) composition is often used in bacteria. Hexamer (codon bias and dicodon combinations) frequency is the most reliable content sensor. **Signal Sensors** are clues that programs use to find genes based on a particular sequence that is associated with a gene. Some examples include a promoter, splice site, or poly(A) signal. A position-specific scoring matrix (PSSM) can give more weigh to more conserved positions.
