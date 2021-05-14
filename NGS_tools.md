@@ -20,11 +20,11 @@ BEDtools and SAMtools are also available via Galaxy.
 
 ### t-SNE
 
-[t-SNE in R](./files/t-SNE.R)
+[t-SNE in R](./files/t-SNE.md)
 
 ### UMAP
 
-[UMAP in R](./files/UMAP.R)
+[UMAP in R](./files/UMAP.md)
 
 ### PCA
 
