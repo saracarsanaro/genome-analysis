@@ -1,5 +1,6 @@
 ## NGS Sequencing and Analysis: DNA
 ### Reference Genome and Sequencing Technologies
+A reference genome (also known as a reference assembly) is a digital nucleic acid sequence database, assembled as a representative example of the set of genes in one idealized individual organism of a species. The most recent human reference genome, GRCh38, is derived from thirteen anonymous volunteers.
 
 ### Genome Sequence Assembly
 
