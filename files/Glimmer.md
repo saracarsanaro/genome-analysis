@@ -1,5 +1,5 @@
 ### Inputs
-[Halanaerobium]() contig and [Halanaerobium praevalens]() complete circular reference genome
+[Halanaerobium](/files/halan.fasta) contig and [Halanaerobium praevalens](/files/hprev_genome.fasta) complete circular reference genome
 
 ### Glimmer Code
 ```
