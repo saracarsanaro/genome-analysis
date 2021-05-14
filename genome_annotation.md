@@ -28,6 +28,7 @@ Some **Expression Based Prediction** methods include: [Splign](https://www.ncbi.
 
 ![Splign](/files/Splign.png)
 output from Splign
+
 **Content Sensors** are prediction algorithms that depend on features inherent to the coding sequence. For example, the third base (nucleotide) composition is often used in bacteria. Hexamer (codon bias and dicodon combinations) frequency is the most reliable content sensor. **Signal Sensors** are clues that programs use to find genes based on a particular sequence that is associated with a gene. Some examples include a promoter, splice site, or poly(A) signal. A position-specific scoring matrix (PSSM) can give more weigh to more conserved positions.
 
 ### Eukaryotic Genome Features
