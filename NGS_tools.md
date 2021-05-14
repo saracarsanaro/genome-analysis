@@ -53,7 +53,15 @@ ggplot(data = XY_values_umap_as_dataframe, aes(x=X_values_umap, y=Y_values_umap)
 ### PCA
 Principal component analysis (PCA) is the process of computing the principal components and using them to perform a change of basis on the data. PC1 is the most varying axis of data points, PC2 is the second most varying axis of data point that is independent from PC1, etc. 
 ```R
-[PCA example R code](./files/PCA.md)
+training_data ← iris[,1:4] #prepare a training dataset
+real_data ← training_data + matrix(rnorm(nrow(training_data)*4,0,0.1), ncol=4) #real data (training dataset with some fluctuations)
+view(real_data)
+library(ggplot2)
+PCA_results ← prcomp(perturbed.embedding)
+X_values_PCA ← PCA_results$x[,1]
+Y_values_PCA ← PCA_results$x[,2]
+XY_values_PCA_as_dataframe ← data.frame(X_values_PCA, Y_values_PCA)
+ggplot(data = XY_values_PCA_as_dataframe, aes(x=X_values_PCA, y=Y_values_PCA)) + geom_point()
 ```
 ### Common Workflow Language
 The [Common Workflow Language](https://www.commonwl.org/v1.2/index.html) (CWL) is a standard for describing computational data-analysis workflows. It is essentially a paradigm for implementing a series of connected command line tools to create reproducible and modular workflows. The set of tools, dependencies, and inputs that make up a CWL workflow are flexible and portable across any platform that supports the CWL standard. See the [CWL User Guide](https://www.commonwl.org/user_guide/) for more information. 
