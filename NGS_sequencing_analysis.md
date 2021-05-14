@@ -2,11 +2,17 @@
 ### Reference Genome and Sequencing Technologies
 A reference genome (also known as a reference assembly) is a digital nucleic acid sequence database, assembled as a representative example of the set of genes in one idealized individual organism of a species. The most recent human reference genome, GRCh38, is derived from thirteen anonymous volunteers.
 
+Next-Generation Sequencing (Second Generation) is characterized by ultra-high throughput and massively parallel sequencing, and the need to prepare amplified sequencing banks before starting the sequencing of amplified DNA clones. These include [Illumina](https://www.illumina.com/science/technology/next-generation-sequencing/sequencing-technology.html), [ABI SOLiD](https://www.youtube.com/watch?v=nlvyF8bFDwM&ab_channel=KamleshSahu), and [Ion Torrent](https://www.youtube.com/watch?v=zBPKj0mMcDg&ab_channel=ThermoFisherScientific). Third Generation Sequencing technologies are classified as single molecule sequencing, and have the capability to produce substantially longer reads with higher error rates. Some examples include [Pacific Biosciences](https://www.pacb.com/) and [Oxford Nanopore](https://www.youtube.com/watch?v=GUb1TZvMWsw&t=17s&ab_channel=OxfordNanoporeTechnologies).
+
+The [Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra) stores original, unprocessed sequencing data generated as part of published projects and studies. It was designed to prevent the loss of original sequencing data.
 ### Genome Sequence Assembly
+Phred Quality Scores were established during the HGP and tell you how confident the call is for each nucleotide sequenced. Quality scores are important in NGS data analysis, and are encoded in FASTQ files. 
+
 
 ### Variant Calling
 
 ### Metagenomics
+Metagenomics is the study of genetic material obtained from environmental samples. Generally, NGS is performed on a sample and the reads are aligned to potential reference genomes to detect matches. Publically available tools for the analysis of metagenomes include [Real-Time Metagenomics](), [Rapid Annotation using Subsystem Technology (RAST)](), [Pipeline Analysis for Next Generation Amplicons (PANGEA)](), [Metagenomics tutorials in Galaxy](https://galaxyproject.github.io/training-material/topics/metagenomics/), and [Metagenome Analyzer (MEGAN)]()
 
 ### SNPs
 A polymorphism involves one of two or more variants of a particular DNA sequence, with some definitions requiring the least common allele to have a frequency of about 1% or greater. A SNP is a substitution of a single nucleotide at a specific position in the genome. 
