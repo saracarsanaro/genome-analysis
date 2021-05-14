@@ -1,9 +1,7 @@
 # NGS Tools and Technologies
 
 ### Galaxy
-_interface designed to analyze genomic data both from publicly available databases (Ensembl, UCSC) and user-derived data_
-
-Galaxy can be accessed via the [Web Interface](https://usegalaxy.org/), [locally](https://galaxyproject.org/admin/get-galaxy/), [on the cloud](https://galaxyproject.org/cloudman/). It is a great tool for small-scale DNA, RNA, ChIP, and single-cell RNA-seq analysis.
+Galaxy is an interface designed to analyze genomic data both from publicly available databases (Ensembl, UCSC) and user-derived data. It can be accessed via the [Web Interface](https://usegalaxy.org/), [locally](https://galaxyproject.org/admin/get-galaxy/), [on the cloud](https://galaxyproject.org/cloudman/). It is a great tool for small-scale DNA, RNA, ChIP, and single-cell RNA-seq analysis.
 
 ```
 Galaxy Workflows
