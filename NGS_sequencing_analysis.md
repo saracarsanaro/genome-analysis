@@ -5,6 +5,8 @@
 
 ### Variant Calling
 
+### Metagenomics
+
 ### SNPs
 A polymorphism involves one of two or more variants of a particular DNA sequence, with some definitions requiring the least common allele to have a frequency of about 1% or greater. A SNP is a substitution of a single nucleotide at a specific position in the genome. 
 
