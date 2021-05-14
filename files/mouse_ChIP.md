@@ -1,5 +1,5 @@
-### Input Files
-Mouse (mm9) [Experimental](/files/Mouse_ChIP-Seq_Example_Experimental_Data_chr19_mm9(1).fastq) and [Control](/files/Mouse_ChIP-Seq_example_Control_Data_chr19_mm9(1).fastq) FASTQs.
+### IGV Visualization
+![output](/files/MOUSE_ChIP_IGV.png)
 
 ### Galaxy Workflow
 1. FASTQ Froomer
@@ -7,7 +7,7 @@ Mouse (mm9) [Experimental](/files/Mouse_ChIP-Seq_Example_Experimental_Data_chr19
 3. BWA Alignment
 4. MACS2 callpeak
 
-'''json
+```json
 {
     "a_galaxy_workflow": "true",
     "annotation": "",
@@ -712,7 +712,4 @@ Mouse (mm9) [Experimental](/files/Mouse_ChIP-Seq_Example_Experimental_Data_chr19
     "uuid": "145e822f-25e6-4436-8b11-207e434eac65",
     "version": 1
 }
-'''
-
-### IGV Visualization
-![output](/files/MOUSE_ChIP_IGV.png)
+```
