@@ -2,10 +2,12 @@
 ![output](/MOUSE_ChIP_IGV.png)
 
 ### Galaxy Workflow
-1. FASTQ Froomer
-2. Trummomatic
-3. BWA Alignment
-4. MACS2 callpeak
+1. FASTQC
+2. FASTQ Groomer
+3. Trimmomatic
+4. FASTQC
+5. BWA Alignment
+6. MACS2 callpeak
 
 ```json
 {
