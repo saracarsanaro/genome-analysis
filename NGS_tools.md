@@ -9,11 +9,13 @@ Galaxy [bioinformatics tutorials](https://training.galaxyproject.org/training-ma
 - performing [NGS data quality control](https://www.youtube.com/watch?v=NH18hN9PdC8&ab_channel=UofMMSI)
 - [variant calling](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/dip/tutorial.html)
 - [metagenomics analyses](https://galaxyproject.github.io/training-material/topics/metagenomics/)
-
+- [de novo transcriptome reconstruction with RNA-Seq](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/de-novo/tutorial.html)
+- 
 ### Galaxy Workflows
 - [intersect with SNPs and exons](/files/galaxy_cow_workflow.md)
 - [CHiP-seq analysis](/files/mouse_ChIP.md)
 - [produce a VCF of SNPs from FASTQ](/files/SNP_calling.md)
+- [de novo transcriptome reconstruction](/files/RNAseq.md)
 
 ### BEDtools and SAMtools
 [BEDtools](https://bedtools.readthedocs.io/en/latest/) is described as a swiss army knife of tools for genomic analyses. The [BEDtools suite](https://bedtools.readthedocs.io/en/latest/content/bedtools-suite.html) allows one to [intersect](https://bedtools.readthedocs.io/en/latest/content/tools/intersect.html), [subtract](https://bedtools.readthedocs.io/en/latest/content/tools/subtract.html), [merge](https://bedtools.readthedocs.io/en/latest/content/tools/merge.html), count, complement, and shuffle genomic intervals from multiple files in widely-used genomic file formats such as BAM, BED, GFF/GTF, VCF. 
