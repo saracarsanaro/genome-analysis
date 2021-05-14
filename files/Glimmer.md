@@ -1,3 +1,6 @@
+### Inputs
+[Halanaerobium]() contig and [Halanaerobium praevalens]() complete circular reference genome
+
 ### Glimmer Code
 ```
 long-orfs -n -t 1.15 hprev_genome.fasta hprev.longorfs
