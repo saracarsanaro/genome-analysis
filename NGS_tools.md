@@ -21,16 +21,19 @@ BEDtools and SAMtools are also available via Galaxy.
 
 ### t-SNE
 t-distributed Stochastic Neighboring Embedding (t-SNE) is a dimensionality reduction technique that calculates conditional probabilities and similarity. 
-[t-SNE in R](./files/t-SNE.md)
-
+```
+[t-SNE example R code](./files/t-SNE.md)
+```
 ### UMAP
 A Uniform Manifold Approximation and Projection (UMAP) is a dimensionality reduction technique based in Riemannian geometry and algebraic topology. It constructs a fuzzy topological plot of data and optimizes low dimensional representation. It is useful for cluster visualization, particularly with RNA-seq. 
-[UMAP in R](./files/UMAP.md)
-
+```
+[UMAP example R code](./files/UMAP.md)
+```
 ### PCA
 Principal component analysis (PCA) is the process of computing the principal components and using them to perform a change of basis on the data. PC1 is the most varying axis of data points, PC2 is the second most varying axis of data point that is independent from PC1, etc. 
-[PCA in R](./files/PCA.md)
-
+```
+[PCA example R code](./files/PCA.md)
+```
 ### Common Workflow Language
 The [Common Workflow Language](https://www.commonwl.org/v1.2/index.html) (CWL) is a standard for describing computational data-analysis workflows. It is essentially a paradigm for implementing a series of connected command line tools to create reproducible and modular workflows. The set of tools, dependencies, and inputs that make up a CWL workflow are flexible and portable across any platform that supports the CWL standard. See the [CWL User Guide](https://www.commonwl.org/user_guide/) for more information. 
 
