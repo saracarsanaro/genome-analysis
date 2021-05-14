@@ -16,10 +16,11 @@ Two copies of each of four proteins make up a **Histone** octomer. Histones asso
 
 **Histone Modifications** are post-translational modification of individual amino acids in the histone proteins. A few well-known histone modifications that impact gene expression include _methylation, acetylation, phosphorylation, sumoylation, ubiquitination, and ADP ribosylation_. A simplified version of the histone modification patterns associated with activated and repressed genes is shown below. 
 ![histone.png](/files/histone.png)
-**Immunoprecipitation** is a method of precipitating or isolating a protein of interest using an antibody that specifically binds to that protein. **Chromatin Immunoprecipitation** is the use of antibodies targeting one of the histone proteins or histones with specific modifications. For example, the antibody for H3K4me3 targets histone H3 with an acetylated lysine-27.
-**Chromatin Immunoprecipitation (ChIP)** procedure is used to precipitate both the intended histone protein and the DNA it is bound to. It can be used for the purposes of sequencing the bound DNA to determine what DNA regions associate with the protein of interest.
+**Immunoprecipitation** is a method of precipitating or isolating a protein of interest using an antibody that specifically binds to that protein. **Chromatin Immunoprecipitation** is the use of antibodies targeting one of the histone proteins or histones with specific modifications. For example, the antibody for H3K4me3 targets histone H3 with an acetylated lysine-27. **Chromatin Immunoprecipitation (ChIP)** procedure is used to precipitate both the intended histone protein and the DNA it is bound to. It can be used for the purposes of sequencing the bound DNA to determine what DNA regions associate with the protein of interest. **ChIP-seq** is a ChIP experiment followed by NGS of the bound DNA.
 
 At a high level, ChIP-seq consists of precipitating protein-DNA complexes, sequencing the DNA, aligning the reads where a pileup of reads is interpreted as associated with the histone, and using negative controls to remove background binding. The three types of **contol experiements** are _DNA input control, IgG antibody control, and the use of untagged strains_. 
 
-ChIP-seq data analsyis: FASTQ alignment. Peak calling. Differential Peak calling. Some common peak calling algorithms are MACS2 and MORE. 
+An example ChIP-seq workflow might be: _FASTQ alignment with Bowtie or BWA_ to align to a reference -> _peak calling sample and control with MACS2 or Slicer_ to output peaks to a BAM or WIG file 
+
+Differential Peak Calling 
 ### Single-Cell RNA-seq
