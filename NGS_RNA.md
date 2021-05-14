@@ -12,5 +12,13 @@ There are also de novo RNA-seq analysis tools which are useful in organisms that
 An example RNA-seq analysis might be: *FastQC* to check data quality -> *Trimmomatic* to trim reads -> *TopHat* to map reads to reference -> *Cufflinks* to assemble reads into transcripts -> *Cuffmerge* to merge multiple datasets with reference annotation -> *Cuffdiff* to perform differential expression analysis.
 
 ### ChIP-seq
+Two copies of each of four proteins make up a **Histone** octomer. Histones associate with DNA, and changes in which regions of DNA associate with DNA have implications for transcription, regulation, and expression. Fene expression regulation by histone variants has been linked to cellular plasticity, particularly during development. There are several variants of some histone proteins, and in some celllular conditions some histone variants may be favored to alter the makeup of the octomers. Additionally, **Histone Modifications** are post-translational modification of individual amino acids in the histone proteins. A few well-known histone modifications that impact gene expression include _methylation, acetylation, phosphorylation, sumoylation, ubiquitination, and ADP ribosylation_. A simplified version of the histone modification patterns associated with activated and repressed genes is shown below. 
+![histone.png](/files/histone.png)
+immunoprecipitation is 
+chromatin immunoprecipitation is
+chromatin immunoprecipitation (ChIP) procedure is used to precipitate both indented histone protein and the DNA it is bound to. It can be used for the purposes of sequencing the bound DNA to determine what DNA regions associate with the protein of interest.
+
+At a high level, ChIP-seq consists of precipitating protein-DNA complexes, sequencing the DNA, aligning the reads where a pileup of reads is interpreted as associated with the histone, and using negative controls to remove background binding. The three types of contol experiements are DNA input control, IgG antibody control, and the use of untagged strains. 
+
 
 ### Single-Cell RNA-seq
