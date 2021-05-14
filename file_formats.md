@@ -25,6 +25,14 @@ _designed to store continuous information at each genomic location_
 
 **BigWig** is a compressed version of a WIG file. See [WIG](http://genome.ucsc.edu/goldenpath/help/wiggle.html) and [BigWig](https://genome.ucsc.edu/goldenpath/help/bigWig.html) documentation for more information.
 
-### FASTA/FASTQ
+### FASTA
+_a format for specifying or representing DNA sequences_
+
+[FASTA](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=BlastHelp) file format is a DNA sequence format for specifying or representing DNA sequences. A FASTA file begins the header with the  > symbol. FASTA is often used to store a reference genome, or any sequence.
+
+### FASTQ
+_an extention of the FASTA format with sequence quality_
+
+[FASTQ](https://support.illumina.com/bulletins/2016/04/fastq-files-explained.html) is a format for representing DNA sequences with sequence quality, usually represented in ASCII characters which correspond to a phred score. A FASTQ file contains 4 lines: (1) header line starting with @, (2) DNA sequence line, (3) another header line starting with +, and (4) the quality line. FASTQ is typically used to store the sequence fragments before mapping.
 
 ### VCF
