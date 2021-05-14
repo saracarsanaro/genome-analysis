@@ -22,4 +22,8 @@ At a high level, ChIP-seq consists of precipitating protein-DNA complexes, seque
 
 An example ChIP-seq workflow might be: _FASTQ alignment with Bowtie or BWA_ to align to a reference -> _peak calling with MACS2 or SICER_ to output peaks to a BAM or WIG file. 
 ### Single-Cell RNA-seq
-The goal of **Single-Cell RNA-seq** is to measure transcriptone expression in a cell. High throughput scRNA-seq can be used to sequence many single cells in parallel. The key 
+The goal of **Single-Cell RNA-seq** is to measure transcriptone expression in a cell. High throughput scRNA-seq can be used to sequence many single cells in parallel. The key is to distinguish which reads come from which cell, which is accomplished through ~12bp long barcode sequences which are unique to each cell. **Unique Molecular Identifiers** (UMIs) are also used for each transcript to produce a more accurate quantification of the transcript count.
+
+**drop-seq** is a popular method of adding cell-specific barcode sequences using an aqueous droplet containing beads with the cell-specific barcode. A single cell enters the droplet, rupturing the cell membrane and capturing the mRNAs with the unique identifiers. **SMRT2-seq** is a frequently used library preparation method for single cell RNA-seq. It uses a MMLV reverse transcriptase to enrich for full-length cDNA molecules. 
+
+A **scRNA workflow** beigns with the capture of cDNA fragments and mapping by the cell-barcode and UMIs. A count matrix is generated, then condensed to a sparce matrix (.mtx) format. QC is performed to remove potential artifacts and multilets. Next, a **knee plot** is generated to identify the number of cells detected above the noise level. The gene expression per cell is then normalized using Seurat, PCA, or t-SNE.  
