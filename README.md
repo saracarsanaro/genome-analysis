@@ -28,7 +28,7 @@ _Sara Carsanaro's Final Portfolio for John Hopkins Spring 2021 Course AS.410.635
 ## [Gene Annotation and Structure](./genome_annotation.md)
 - gene finding programs
 - prokaryotic and eukaryotic gene structure
-- noncoding NRAs and UCRs
+- noncoding RNAs, UCEs and CNEs
 
 ## [Model Organisms](./model_orgs.md)
 - genomic resources for various model organisms
