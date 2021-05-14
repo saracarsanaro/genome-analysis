@@ -1,5 +1,5 @@
 ### Inputs
-[Halanaerobium](/files/halan.fasta) contig and [Halanaerobium praevalens](/files/hprev_genome.fasta) complete circular reference genome
+[Halanaerobium](/halan.fasta) contig and [Halanaerobium praevalens](/hprev_genome.fasta) complete circular reference genome
 
 ### Glimmer Code
 ```
@@ -10,7 +10,7 @@ glimmer3 -o50 -g110 -t30 halan.fasta hprev.icm halan_results
 extract -t halan.fasta halan_results.predict > halan_results.glimmer
 ```
 ### Glimmer Output
-![output](/files/Glimmer_predict.png)
+![output](/Glimmer_predict.png)
 
 ### FGENESB Output
-![output](/files/FGENESB.png)
+![output](/FGENESB.png)
