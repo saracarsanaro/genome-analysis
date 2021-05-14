@@ -1,4 +1,6 @@
 ## NGS Sequencing and Analysis: DNA
+### Reference Genome and Sequencing Technologies
+
 ### Genome Sequence Assembly
 
 ### Variant Calling
