@@ -21,17 +21,26 @@ BEDtools and SAMtools are also available via Galaxy.
 
 ### t-SNE
 t-distributed Stochastic Neighboring Embedding (t-SNE) is a dimensionality reduction technique that calculates conditional probabilities and similarity. 
-```
-[t-SNE example R code](./files/t-SNE.md)
+```R
+training_data ← iris[,1:4] #prepare a training dataset
+real_data ← training_data + matrix(rnorm(nrow(training_data)*4,0,0.1), ncol=4) #real data (training dataset with some fluctuations)
+view(real_data)
+#t-SNE#
+library(Rtsne), library(ggplot2)
+tSNE_results ← Rtsne(perturbed.embedding, header=T)
+X_values_tsne ← tSNE_results$Y[,1]
+Y_values_tsne ← tSNE_results$Y[,2]
+XY_values_tsne_as_dataframe ← data.frame(X_values_tsne, Y_values_tsne)
+ggplot(data = XY_values_tsne_as_dataframe, aes(x=X_values_tsne, y = Y_values_tsne)) + geom_point() 
 ```
 ### UMAP
 A Uniform Manifold Approximation and Projection (UMAP) is a dimensionality reduction technique based in Riemannian geometry and algebraic topology. It constructs a fuzzy topological plot of data and optimizes low dimensional representation. It is useful for cluster visualization, particularly with RNA-seq. 
-```
+```R
 [UMAP example R code](./files/UMAP.md)
 ```
 ### PCA
 Principal component analysis (PCA) is the process of computing the principal components and using them to perform a change of basis on the data. PC1 is the most varying axis of data points, PC2 is the second most varying axis of data point that is independent from PC1, etc. 
-```
+```R
 [PCA example R code](./files/PCA.md)
 ```
 ### Common Workflow Language
