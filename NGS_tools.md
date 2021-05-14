@@ -4,7 +4,7 @@
 Galaxy is an interface designed to analyze genomic data both from publicly available databases (Ensembl, UCSC) and user-derived data. It can be accessed via the [Web Interface](https://usegalaxy.org/), [locally](https://galaxyproject.org/admin/get-galaxy/), [on the cloud](https://galaxyproject.org/cloudman/). It is a great tool for small-scale DNA, RNA, ChIP, and single-cell RNA-seq analysis.
 
 ```
-Galaxy Workflows
+[Galaxy Workflows]()
 - intersect SNPs with exons
 - CHiP-seq
 ```
@@ -20,15 +20,15 @@ Galaxy [bioinformatics tutorials](https://training.galaxyproject.org/training-ma
 BEDtools and SAMtools are also available via Galaxy.
 
 ### t-SNE
-
+t-distributed Stochastic Neighboring Embedding (t-SNE) is a dimensionality reduction technique that calculates conditional probabilities and similarity. 
 [t-SNE in R](./files/t-SNE.md)
 
 ### UMAP
-
+A Uniform Manifold Approximation and Projection (UMAP) is a dimensionality reduction technique based in Riemannian geometry and algebraic topology. It constructs a fuzzy topological plot of data and optimizes low dimensional representation. It is useful for cluster visualization, particularly with RNA-seq. 
 [UMAP in R](./files/UMAP.md)
 
 ### PCA
-
+Principal component analysis (PCA) is the process of computing the principal components and using them to perform a change of basis on the data. PC1 is the most varying axis of data points, PC2 is the second most varying axis of data point that is independent from PC1, etc. 
 [PCA in R](./files/PCA.md)
 
 ### Common Workflow Language
