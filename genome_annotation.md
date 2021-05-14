@@ -56,6 +56,7 @@ Noncoding RNAs (ncRNA) are any RNA not translated into a protein, and include tR
 There exist many algorithms and databases for miRNA and their targets. The [miRanda](http://cbio.mskcc.org/miRNA2003/miranda.html) algorithm is specialized to find miRNA and mRNAs that are miRNA targets. [PicTar](https://pictar.mdc-berlin.de/) and [DIANA-TarBase v.8](http://carolina.imis.athena-innovation.gr/diana_tools/web/index.php?r=tarbasev8%2Findex) are other miRNA-target algorithms. miRNA databases include [TargetScan](http://www.targetscan.org/), [miRNEST 2.0](http://rhesus.amu.edu.pl/mirnest/copy/) holds plant and animal miRNAs, [PolymiRTS](https://compbio.uthsc.edu/miRSNP/) holds SNPs in miRNA target sites, [miRDB](http://mirdb.org/), and [miRBase](http://www.mirbase.org/), a repository for known miRNA sequences. [NONCODE](http://www.noncode.org/) is a database for lncRNA transcripts from 16 species. 
 
 ![miRNA prediction](/files/TargetScan.png)
+
 miRNA prediction from TargetScan for human NOTCH1 gene
 
 ### Conserved Noncoding Elements and Ultraconserved Elements
