@@ -5,7 +5,7 @@
 
 **Gene Duplication** occurs often in eukaryotes, with 4 broad fates after gene duplication: (1) both copies remain with little mutation, providing an extra source for transcription and gene expression; (2) one copy is deleted or permanently damaged; (3) one copy accumulates mutations and becomes a pseudogene; or (4) paralogous form, where one or both copies evolve to have different functions. The deletion fate is most common. The [Yeast Gene Order Browser](http://ygob.ucd.ie/) is a tool for visualising the syntenic context of any gene from several yeast genomes.
 
-**Fission Yeast** Schizosaccharomyces pombe better resembles higher eukaryotes than s. cerevisiae due to the increased presence of introns. [PomBase](https://www.pombase.org/) is a genome browser that includes s. pombe and other species in the Schizosaccharomyces genus. 
+**Fission Yeast** (Schizosaccharomyces pombe) better resembles higher eukaryotes than s. cerevisiae due to the increased presence of introns. [PomBase](https://www.pombase.org/) is a genome browser that includes s. pombe and other species in the Schizosaccharomyces genus. 
 
 **Aspergillus** resources include [AspGD](http://www.aspgd.org/), an Aspergillus genome database, and [Aspergillus Comparative Database](https://www.broadinstitute.org/fungal-genome-initiative/aspergillus-genome-projects) which focuses on comparative genomics in Aspergillus. A good **Candida** resource is [Candida Genome Database](http://candidagenome.org/), which has manually curated sequence data for Candida species. For general **Fungi** resources, there is the data-mining interface [FungiDB](https://fungidb.org/fungidb/app) and the genome browser [EnsemblFungi](http://fungi.ensembl.org/index.html).
 
