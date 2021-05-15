@@ -1,3 +1,5 @@
+## Produce a VCF of SNPs from a FASTQ
+
 ### FASTQ to VCF - SNP calling
 1. FASTQC
 2. FASTQGroomer
