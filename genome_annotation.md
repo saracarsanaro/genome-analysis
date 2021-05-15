@@ -1,7 +1,7 @@
 # Gene Annotation and Structure
 ## Prokaryotic
 ### Gene Structure
-mRNA is often **polycistronic**, with multiple coding regions in one piece of mRNA. An **operon** is a cluster of genes that are controlled by the same promoter, while a **transcription unit** denotes any segment of DNA that codes for an RNA molecule. An operon can encompass multiple transcriptional units.
+Prokaryotic mRNA is often **polycistronic**, with multiple coding regions in one piece of mRNA. An **operon** is a cluster of genes that are controlled by the same promoter, while a **transcription unit** denotes any segment of DNA that codes for an RNA molecule. An operon can encompass multiple transcriptional units.
 **GC content** tends to be higher in genes. Organisms can vary significantly in base composition, largely determined by codon usage (many amino acids are coded by multiple codons, some organisms prefer some codons over others).
 
 ### Gene Prediction
