@@ -1,4 +1,6 @@
-### De Novo Transcriptome Reconstruction
+## De Novo Transcriptome Reconstruction
+
+### Workflow
 1. FASTQC
 2. Trimmomatic
 3. FastQC
