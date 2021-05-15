@@ -1,3 +1,5 @@
+## CHiP-seq Analysis
+
 ### IGV Visualization
 ![output](/MOUSE_ChIP_IGV.png)
 
