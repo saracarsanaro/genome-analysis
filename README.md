@@ -24,7 +24,7 @@ _Sara Carsanaro's Final Portfolio for John Hopkins Spring 2021 Course AS.410.635
 - common workflow language
 
 ## [Genomic File Formats](./file_formats.md)
-- various file formats you may encounter working in NGS workflows
+- various file formats you may encounter in NGS workflows
 
 ## [Gene Annotation and Structure](./genome_annotation.md)
 - gene finding programs
