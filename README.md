@@ -7,9 +7,10 @@ _Sara Carsanaro's Final Portfolio for John Hopkins Spring 2021 Course AS.410.635
 - desktop applications including IGV
 
 ## [NGS Sequencing and Analysis: DNA](./NGS_sequencing_analysis.md)
-- SNVs and CNVs
 - de novo and reference based sequence assembly
 - variant calling
+- metagenomics
+- SNVs and CNVs
 
 ## [NGS Sequencing and Analysis: RNA and Beyond](./NGS_RNA.md)
 - ChIP-seq
